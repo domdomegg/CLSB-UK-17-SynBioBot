@@ -3,7 +3,6 @@
 // Set up dependencies
 const ApiAiApp = require('actions-on-google').ApiAiApp;
 const functions = require('firebase-functions');
-const parseXml = require('xml2js').parseString;
 const https = require('https');
 
 // Export firebase function
@@ -102,6 +101,7 @@ function getData(url, parser, callback) {
 			if (parser == 'JSON') {
 				callback(JSON.parse(data));
 			} else if (parser == 'xml') {
+				let parseXml = require('xml2js').parseString;
 				parseXml(data, function (err, result) {
 	                callback(result);
 	            });
