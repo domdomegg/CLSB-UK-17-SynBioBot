@@ -1,0 +1,11 @@
+{
+  "name": "SynBioBot",
+  "description": "Helps out with synthetic biology questions in the lab",
+  "private": true,
+  "dependencies": {
+    "actions-on-google": "latest",
+    "firebase-admin": "latest",
+    "firebase-functions": "latest",
+    "xml2js": "latest"
+  }
+}
