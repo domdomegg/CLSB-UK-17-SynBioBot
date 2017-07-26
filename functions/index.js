@@ -109,7 +109,10 @@ function getData(url, parser, callback) {
 				throw new Error('Unknown parser type');
 			}
         });
-    });
+    }).on('error', (err) => {
+		console.log('Error getting data: ', err)
+		askWithSimpleResponseAndSuggestions('There was an error connecting to the database. Please try again later. What would you like to do instead?', ['Search Parts Registry', 'Search Protocat', 'Exit'])
+	});
 }
 
 // Useful for varying responses a bit
