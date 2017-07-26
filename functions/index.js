@@ -10,6 +10,46 @@ const https = require('https');
 exports.synbiobot = functions.https.onRequest((request, response) => {
 	const app = new ApiAiApp({request: request, response: response});
 
+    function getPart (app) {
+		let url = 'https://parts.igem.org/cgi/xml/part.cgi?part=' + app.getArgument('iGEMPartName');
+
+        getData(url, 'xml', function (data) {
+			let part = data.rsbpml.part_list[0].part[0];
+
+			// There's a lot of use of ternary operators to check if a piece of
+			// data exists, as data is not guaranteed for every part.
+			let title = 'Part ' + part.part_name[0] + (part.part_nickname[0] ? ' (' + part.part_nickname[0] + ')' : '');
+
+			let speech = '';
+			speech += 'Part ' + part.part_short_name[0] + ' ';
+			speech += (part.part_type[0] ? 'is a ' + part.part_type[0] : '');
+			speech += (part.part_results[0] == "Works" ? ' that works' : '');
+			// Tidies the author field; trims excess whitespace and remove fullstop, if present.
+			speech += (part.part_author[0] ? ', designed by ' + part.part_author[0].trim().replace(/\.$/, "") + '.' : '.');
+
+			let text = '';
+			text += (part.part_type[0] ? '**Type:** ' + part.part_type[0] + '  \n': '');
+			text += (part.part_short_desc[0] ? '**Desc:** ' + part.part_short_desc[0] + '  \n': '');
+			text += (part.part_results[0] ? '**Results:** ' + part.part_results[0] + '  \n': '');
+			text += (part.release_status[0] ? '**Release status:** ' + part.release_status[0] + '  \n': '');
+			text += (part.sample_status[0] ? '**Availability:** ' + part.sample_status[0] + '  \n': '');
+			// Tidies the author field; trims excess whitespace and remove fullstop, if present.
+			text += (part.part_author[0] ? '**Designed by:** ' + part.part_author[0].trim().replace(/\.$/, "") + '  \n': '');
+			text += '  \nData provided by the iGEM registry';
+
+			let destinationName = 'iGEM Registry';
+			let suggestionUrl = (part.part_url[0] ? part.part_url[0] : 'https://parts.igem.org/Part:' + app.getArgument('iGEMPartName'));
+			let suggestions = ['Search for another part', 'Exit'];
+
+			// app.setContext('iGEM_part', 1, part);
+			askWithBasicCardAndLinkAndSuggestions(speech, title, text, destinationName, suggestionUrl, suggestions);
+        });
+    }
+
+	const actionMap = new Map();
+	actionMap.set('get_part', getPart);
+	app.handleRequest(actionMap);
+
 	// All these helper methods pretty much do what they say on the tin,
 	// just make it easier to create responses
 
