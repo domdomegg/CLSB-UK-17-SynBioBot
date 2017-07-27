@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="192"
+   height="192"
+   viewBox="0 0 50.8 50.8"
+   version="1.1"
+   id="svg7301"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/adam/Downloads/bitmap.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs7295">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7058-4">
+      <circle
+         r="147.98735"
+         cy="545.78259"
+         cx="-169.16922"
+         id="circle7060-0"
+         style="opacity:1;fill:url(#linearGradient7062);fill-opacity:1;stroke:none;stroke-width:15.11811066;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.26771665;stroke-opacity:1" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter7074-9">
+      <feFlood
+         flood-opacity="0.27451"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood7064-1" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite1"
+         id="feComposite7066-9" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="4"
+         result="blur"
+         id="feGaussianBlur7068-6" />
+      <feOffset
+         dx="0"
+         dy="1.38778e-16"
+         result="offset"
+         id="feOffset7070-2" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="atop"
+         result="composite2"
+         id="feComposite7072-5" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7165"
+       id="linearGradient4784"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.4517951,0,0,2.4517951,-28.178245,-19.814513)"
+       x1="79.505348"
+       y1="8.6911335"
+       x2="3.3827837"
+       y2="108.67015" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7165">
+      <stop
+         style="stop-color:#e040fb;stop-opacity:1"
+         offset="0"
+         id="stop7161" />
+      <stop
+         style="stop-color:#004ecb;stop-opacity:1"
+         offset="1"
+         id="stop7163" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="99.165433"
+     inkscape:cy="110.7972"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     scale-x="1"
+     inkscape:window-width="1886"
+     inkscape:window-height="2090"
+     inkscape:window-x="1953"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7298">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(41.315549,-171.99656)">
+    <path
+       style="opacity:1;fill:url(#linearGradient4784);fill-opacity:1;stroke:none;stroke-width:9.8071804;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.26771665;stroke-opacity:1"
+       d="M 96 0 A 96 96 0 0 0 0 96 A 96 96 0 0 0 25.326172 160.82422 L 42.029297 144.11914 C 30.940416 130.97821 31.583422 111.43222 43.972656 99.042969 L 61.080078 81.933594 L 71.9375 92.792969 L 79.972656 84.757812 C 79.186756 82.638972 79.633776 80.151898 81.324219 78.460938 C 83.016226 76.768012 85.506008 76.32239 87.625 77.111328 L 95.365234 69.367188 L 84.505859 58.507812 L 101.61523 41.400391 C 114.00447 29.011175 133.55045 28.368162 146.69141 39.457031 L 160.81055 25.337891 A 96 96 0 0 0 96 0 z M 164.40234 28.683594 L 150.20508 42.880859 C 161.87045 56.01982 161.4119 76.009941 148.81836 88.603516 L 131.70898 105.71289 L 120.84961 94.853516 L 113.10742 102.59766 C 113.89386 104.71563 113.45047 107.20188 111.75977 108.89258 C 110.06837 110.58411 107.57846 111.03092 105.45898 110.24414 L 97.423828 118.27734 L 108.28516 129.13672 L 91.175781 146.24805 C 78.582206 158.84162 58.590148 159.29821 45.451172 147.63281 L 28.720703 164.36328 A 96 96 0 0 0 96 192 A 96 96 0 0 0 192 96 A 96 96 0 0 0 164.40234 28.683594 z M 98.832031 72.835938 L 91.089844 80.578125 C 91.877807 82.696701 91.433677 85.185501 89.742188 86.876953 C 88.049537 88.569577 85.556032 89.015728 83.435547 88.226562 L 75.40625 96.259766 L 93.957031 114.81055 L 101.98828 106.77734 C 101.20101 104.65794 101.65065 102.16824 103.3418 100.47656 C 105.0342 98.783599 107.52325 98.337334 109.64258 99.126953 L 117.38281 91.386719 L 98.832031 72.835938 z M 85.53125 80.382812 C 84.954404 80.382602 84.376963 80.609361 83.925781 81.060547 C 83.023102 81.96393 83.022633 83.372273 83.925781 84.275391 C 84.829164 85.178773 86.241164 85.178811 87.144531 84.275391 C 88.04675 83.372008 88.042058 81.965958 87.138672 81.0625 C 86.687483 80.612183 86.110053 80.384 85.533203 80.382812 L 85.53125 80.382812 z M 107.54883 102.40039 C 106.9713 102.39963 106.3931 102.62448 105.94141 103.07617 C 105.03805 103.97959 105.03805 105.38951 105.94141 106.29297 C 106.8448 107.19631 108.25481 107.19628 109.1582 106.29297 C 110.06137 105.38951 110.05964 103.98151 109.15625 103.07812 C 108.70455 102.62666 108.12635 102.40103 107.54883 102.40039 z "
+       transform="matrix(0.26458333,0,0,0.26458333,-41.315549,171.99656)"
+       id="circle4780" />
+  </g>
+</svg>
