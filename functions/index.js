@@ -23,8 +23,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 			speech += 'Part ' + part.part_short_name[0] + ' ';
 			speech += (part.part_type[0] ? 'is a ' + part.part_type[0] : '');
 			speech += (part.part_results[0] == "Works" ? ' that works' : '');
-			// Tidies the author field; trims excess whitespace and remove fullstop, if present.
-			speech += (part.part_author[0] ? ', designed by ' + part.part_author[0].trim().replace(/\.$/, "") + '.' : '.');
+			speech += (part.part_author[0] ? ', designed by ' + part.part_author[0].clean() + '.' : '.');
 
 			let text = '';
 			text += (part.part_type[0] ? '**Type:** ' + part.part_type[0] + '  \n': '');
@@ -33,7 +32,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 			text += (part.release_status[0] ? '**Release status:** ' + part.release_status[0] + '  \n': '');
 			text += (part.sample_status[0] ? '**Availability:** ' + part.sample_status[0] + '  \n': '');
 			// Tidies the author field; trims excess whitespace and remove fullstop, if present.
-			text += (part.part_author[0] ? '**Designed by:** ' + part.part_author[0].trim().replace(/\.$/, "") + '  \n': '');
+			text += (part.part_author[0] ? '**Designed by:** ' + part.part_author[0].clean() + '  \n': '');
 			text += '  \nData provided by the iGEM registry';
 
 			let destinationName = 'iGEM Registry';
@@ -81,7 +80,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 					listOptions.push({
 						selectionKey: results[i].id.toString(),
 						title: results[i].title,
-						description: results[i].description.replace(/<(?:.|\n)*?>/gm, ''),
+						description: results[i].description.clean().split('.')[0],
 						synonyms: [results[i].title.split(/\s+/)[0], results[i].title.split(/\s+/).slice(0,2).join(' ')]
 					});
 				}
@@ -114,18 +113,15 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 		// There's a lot of use of ternary operators to check if a piece of
 		// data exists, as data is not guaranteed for every protocol.
 
-		// This piece of regex is designed to remove HTML tags
-		// .replace(/<(?:.|\n)*?>/g, '')
-
 		let title = protocol.title;
 		let speech = '';
 		speech += 'Here\'s the ' + protocol.title + '. ';
-		speech += (protocol.description ? protocol.description.replace(/<(?:.|\n)*?>/g, '').trim().replace(/\.$/, "") + '. ' : '');
+		speech += (protocol.description ? protocol.description.clean().split('.')[0] + '. ' : '');
 		speech += 'Do you want a step-by-step guide, to search Protocat again or exit?'
 
 		let text = '';
-		text += (protocol.description.replace(/<(?:.|\n)*?>/g, '') ? '**Description:** ' + protocol.description.replace(/<(?:.|\n)*?>/g, '').trim().replace(/\.$/, "") + '  \n' : '');
-		text += (protocol.materials.replace(/<(?:.|\n)*?>/g, '') ? '**Materials:** ' + protocol.materials.replace(/<(?:.|\n)*?>/g, '').trim().replace(/\.$/, "") + '  \n': '');
+		text += (protocol.description.clean() ? '**Description:** ' + protocol.description.clean() + '  \n' : '');
+		text += (protocol.materials.clean() ? '**Materials:** ' + protocol.materials.clean() + '  \n': '');
 		text += (protocol.protocol_steps ? '**# Steps:** ' + protocol.protocol_steps.length + '  \n': '');
 		text += '  \nData provided by Protocat';
 
@@ -217,6 +213,11 @@ function getData(url, parser, callback) {
 		askWithSimpleResponseAndSuggestions('There was an error connecting to the database. Please try again later. What would you like to do instead?', ['Search Parts Registry', 'Search Protocat', 'Exit'])
 	});
 }
+
+// Removes HTML tags, removes whitespace around string, removes trailing full stop
+String.prototype.clean = function(){
+	return this.replace(/<(?:.|\n)*?>/g, '').trim().replace(/\.$/, "");
+};
 
 // Useful for varying responses a bit
 function randomFromArray(arr) {
