@@ -45,8 +45,103 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
         });
     }
 
+	function protocatSearch (app) {
+		// TODO: Use HTTPS
+		// https://github.com/MiBioSoft2017/ProtoCat4/issues/17
+		let url = 'http://protocat.org/api/protocol/?format=json';
+
+		getData(url, 'JSON', (data) => {
+			// Use fuse.js to fuzzy-search through protcols by title
+			// Uses var to load globally
+			var fuseJs = require('fuse.js');
+			let searchOptions = {
+			  shouldSort: true,
+			  threshold: 0.6,
+			  location: 0,
+			  distance: 100,
+			  maxPatternLength: 32,
+			  minMatchCharLength: 2,
+			  keys: ["title"]
+			};
+			let results = (new fuseJs(data, searchOptions)).search(app.getRawInput());
+
+			if (results.length == 0) {
+				// No protocols found
+				speech = 'I couldn\'t find any protocols about ' + app.getRawInput() + ' on Protocat. What would you like me to do instead?';
+				suggestions = ['Search Protocat again', 'Find an iGEM Part', 'Go away'];
+				askWithSimpleResponseAndSuggestions(speech, suggestions)
+			} else if (results.length == 1) {
+				// One protocol found
+				showProtocol(results[0]);
+			} else {
+				// Multiple protocols found
+				// Shows up to 10 results in a list
+				let listOptions = [];
+				for(let i = 0; (i < 10 && i < results.length); i++) {
+					listOptions.push({
+						selectionKey: results[i].id.toString(),
+						title: results[i].title,
+						description: results[i].description.replace(/<(?:.|\n)*?>/gm, ''),
+						synonyms: [results[i].title.split(/\s+/)[0], results[i].title.split(/\s+/).slice(0,2).join(' ')]
+					});
+				}
+
+				// TODO: Make this work well with devices without screens
+				askWithList('Which one of these looks right?', 'Protocat results', listOptions);
+			};
+		});
+	}
+
+	function protocatListSelect (app) {
+		// TODO: Use HTTPS
+		// https://github.com/MiBioSoft2017/ProtoCat4/issues/17
+		let url = 'http://protocat.org/api/protocol/' + app.getSelectedOption() + '/?format=json';
+
+		getData(url, 'JSON', (data) => {
+			// Check we actually got a protocol, and the right protocol
+			if(data && data.title && data.id == app.getSelectedOption()) {
+				showProtocol(data);
+			} else {
+				speech = 'Sorry, I couldn\'t open that protocol. What should I do instead?';
+				suggestions = ['Search Protocat again', 'Find an iGEM Part', 'Go away'];
+				askWithSimpleResponseAndSuggestions(speech, suggestions);
+			}
+		});
+	}
+
+	// Protocol must be in Protocat format
+	function showProtocol (protocol) {
+		// There's a lot of use of ternary operators to check if a piece of
+		// data exists, as data is not guaranteed for every protocol.
+
+		// This piece of regex is designed to remove HTML tags
+		// .replace(/<(?:.|\n)*?>/g, '')
+
+		let title = protocol.title;
+		let speech = '';
+		speech += 'Here\'s the ' + protocol.title + '. ';
+		speech += (protocol.description ? protocol.description.replace(/<(?:.|\n)*?>/g, '').trim().replace(/\.$/, "") + '. ' : '');
+		speech += 'Do you want a step-by-step guide, to search Protocat again or exit?'
+
+		let text = '';
+		text += (protocol.description.replace(/<(?:.|\n)*?>/g, '') ? '**Description:** ' + protocol.description.replace(/<(?:.|\n)*?>/g, '').trim().replace(/\.$/, "") + '  \n' : '');
+		text += (protocol.materials.replace(/<(?:.|\n)*?>/g, '') ? '**Materials:** ' + protocol.materials.replace(/<(?:.|\n)*?>/g, '').trim().replace(/\.$/, "") + '  \n': '');
+		text += (protocol.protocol_steps ? '**# Steps:** ' + protocol.protocol_steps.length + '  \n': '');
+		text += '  \nData provided by Protocat';
+
+		let destinationName = 'View on Protocat';
+		// TODO: Use HTTPS
+		let suggestionUrl = 'http://protocat.org/protocol/' + protocol.id.toString() + '/';
+		let suggestions = ['Step-by-step guide', 'Search Protocat again', 'Exit'];
+
+		app.setContext('protocol', 1, protocol);
+		askWithBasicCardAndLinkAndSuggestions(speech, title, text, destinationName, suggestionUrl, suggestions);
+	}
+
 	const actionMap = new Map();
 	actionMap.set('get_part', getPart);
+	actionMap.set('protocat_search', protocatSearch);
+	actionMap.set('protocat_list_select', protocatListSelect);
 	app.handleRequest(actionMap);
 
 	// All these helper methods pretty much do what they say on the tin,
@@ -88,20 +183,28 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 	}
 });
 
-// Gets data from a HTTPS source. Currently supports 'JSON' and 'xml' parsing.
+// Gets data from a HTTP(S) source. Currently supports 'JSON' and 'xml' parsing.
 function getData(url, parser, callback) {
-    let req = https.get(url, function(res) {
+	let requester = https;
+	if (url.indexOf('http://') > -1) {
+		requester = require('http');
+	}
+    let req = requester.get(url, (res) => {
         let data = '';
+		if (parser == 'xml') {
+			// If we know it's xml, we can load the library in advance for a
+			// minor performance improvement. Uses var so it's defined globally
+			var parseXml = require('xml2js').parseString;
+		}
 
-        res.on('data', function(chunk) {
+        res.on('data', (chunk) => {
             data += chunk;
         });
 
-        res.on('end', function() {
+        res.on('end', () => {
 			if (parser == 'JSON') {
 				callback(JSON.parse(data));
 			} else if (parser == 'xml') {
-				let parseXml = require('xml2js').parseString;
 				parseXml(data, function (err, result) {
 	                callback(result);
 	            });

@@ -6,6 +6,7 @@
     "actions-on-google": "latest",
     "firebase-admin": "latest",
     "firebase-functions": "latest",
-    "xml2js": "latest"
+    "xml2js": "latest",
+    "fuse.js": "latest"
   }
 }
