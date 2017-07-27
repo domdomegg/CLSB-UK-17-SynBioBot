@@ -101,8 +101,8 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 			if(data && data.title && data.id == app.getSelectedOption()) {
 				showProtocol(data);
 			} else {
-				speech = 'Sorry, I couldn\'t open that protocol. What should I do instead?';
-				suggestions = ['Search Protocat again', 'Find an iGEM Part', 'Go away'];
+				let speech = 'Sorry, I couldn\'t open that protocol. What should I do instead?';
+				let suggestions = ['Search Protocat again', 'Find an iGEM Part', 'Go away'];
 				askWithSimpleResponseAndSuggestions(speech, suggestions);
 			}
 		});
@@ -115,7 +115,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 
 		let title = protocol.title;
 		let speech = '';
-		speech += 'Here\'s the ' + protocol.title + '. ';
+		speech += 'Here\'s the protocol you asked for. ';
 		speech += (protocol.description ? protocol.description.clean().split('.')[0] + '. ' : '');
 		speech += 'Do you want a step-by-step guide, to search Protocat again or exit?'
 
