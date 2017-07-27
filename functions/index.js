@@ -172,10 +172,10 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 
 		if (typeof protocol_step_state.currentStep == 'number') {
 			let newCurrentStep = protocol_step_state.currentStep + stepChange;
-			if (newCurrentStep > protocol_step_state.steps.length) {
+			if (newCurrentStep > protocol_step_state.steps.length - 1) {
 				// End instructions
 				app.setContext('protocol_step_state', 1, protocol_step_state);
-				askWithSimpleResponseAndSuggestions('There are no more steps in this guide. Do you want me to exit, repeat the last step or go back?', ['Exit', 'Repeat', 'Go back', 'Search Protocat again', 'Search iGEM Registry']);
+				askWithSimpleResponseAndSuggestions('There are no more steps in this guide. Do you want me to exit or repeat the last step?', ['Exit', 'Repeat', 'Search Protocat again', 'Search iGEM Registry']);
 			} else if (newCurrentStep < 0) {
 				// Not allowed to go back
 				app.setContext('protocol_step_state', 1, protocol_step_state);
@@ -201,7 +201,8 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 
 		let speech = title + '. ';
 		speech += (step.warning.clean() ? 'Warning: ' + step.warning.clean() + '. ' : '');
-		speech += step.action.clean();
+		// Regex replaces 'u' used to mean micro with actual micro
+		speech += step.action.clean().replace(/([0-9]+)\s*uls*/g, '$1μl') + '. ';
 
 		let nextStepPhrases = [
 			'Want the next step now?',
@@ -216,7 +217,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 
 		let text = '';
 		text += (step.warning.clean() ? '**Warning:** ' + step.warning.clean() + '.  \n  \n' : '');
-		text += step.action.clean();
+		text += step.action.clean().replace(/([0-9]+)\s*uls*/g, '$1μl');
 
 		let destinationName = 'View on Protocat';
 		// TODO: Use HTTPS
@@ -276,42 +277,42 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 			.addSuggestions(suggestions)
 		);
 	}
-});
 
-// Gets data from a HTTP(S) source. Currently supports 'JSON' and 'xml' parsing.
-function getData(url, parser, callback) {
-	let requester = https;
-	if (url.indexOf('http://') > -1) {
-		requester = require('http');
-	}
-    let req = requester.get(url, (res) => {
-        let data = '';
-		if (parser == 'xml') {
-			// If we know it's xml, we can load the library in advance for a
-			// minor performance improvement. Uses var so it's defined globally
-			var parseXml = require('xml2js').parseString;
+	// Gets data from a HTTP(S) source. Currently supports 'JSON' and 'xml' parsing.
+	function getData(url, parser, callback) {
+		let requester = https;
+		if (url.indexOf('http://') > -1) {
+			requester = require('http');
 		}
-
-        res.on('data', (chunk) => {
-            data += chunk;
-        });
-
-        res.on('end', () => {
-			if (parser == 'JSON') {
-				callback(JSON.parse(data));
-			} else if (parser == 'xml') {
-				parseXml(data, function (err, result) {
-	                callback(result);
-	            });
-			} else {
-				throw new Error('Unknown parser type');
+	    let req = requester.get(url, (res) => {
+	        let data = '';
+			if (parser == 'xml') {
+				// If we know it's xml, we can load the library in advance for a
+				// minor performance improvement. Uses var so it's defined globally
+				var parseXml = require('xml2js').parseString;
 			}
-        });
-    }).on('error', (err) => {
-		console.log('Error getting data: ', err)
-		askWithSimpleResponseAndSuggestions('There was an error connecting to the database. Please try again later. What would you like to do instead?', ['Search Parts Registry', 'Search Protocat', 'Exit'])
-	});
-}
+
+	        res.on('data', (chunk) => {
+	            data += chunk;
+	        });
+
+	        res.on('end', () => {
+				if (parser == 'JSON') {
+					callback(JSON.parse(data));
+				} else if (parser == 'xml') {
+					parseXml(data, function (err, result) {
+		                callback(result);
+		            });
+				} else {
+					throw new Error('Unknown parser type');
+				}
+	        });
+	    }).on('error', (err) => {
+			console.log('Error getting data: ', err)
+			askWithSimpleResponseAndSuggestions('There was an error connecting to the database. Please try again later. What would you like to do instead?', ['Search Parts Registry', 'Search Protocat', 'Exit'])
+		});
+	}
+});
 
 // Removes HTML tags, removes whitespace around string, removes trailing full stop
 String.prototype.clean = function(){
