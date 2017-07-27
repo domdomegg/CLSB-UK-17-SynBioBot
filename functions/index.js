@@ -134,10 +134,109 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 		askWithBasicCardAndLinkAndSuggestions(speech, title, text, destinationName, suggestionUrl, suggestions);
 	}
 
+	function protocolStepByStepBegin (app) {
+		let protocol = (app.getContext('protocol') ? app.getContext('protocol').parameters : {});
+		if (protocol.protocol_steps) {
+			let speech = 'Sure. Beginning the step-by-step instructions for ' + protocol.title + '. ';
+			speech += 'To navigate through steps, just say \'next\', \'repeat\', or \'back\'. ';
+			speech += (protocol.protocol_steps[0].warning.clean() ? 'Warning for step 1: ' + protocol.protocol_steps[0].warning.clean() + '.  \n  \n' : '');
+			speech += 'Step 1: ' + protocol.protocol_steps[0].action.clean();
+
+			let title = 'Step 1';
+
+			let text = (protocol.protocol_steps[0].warning.clean() ? '**Warning for step 1:** ' + protocol.protocol_steps[0].warning.clean() + '. ' : '');
+			text += 'Step 1: ' + protocol.protocol_steps[0].action.clean();
+
+			let destinationName = 'View on Protocat';
+			// TODO: Use HTTPS
+			let suggestionUrl = 'http://protocat.org/protocol/' + protocol.id.toString() + '/';
+
+			let suggestions = ['Next', 'Repeat'];
+
+			// currentStep is 0 indexed, so steps[currentStep] works
+			let protocol_step_state = {
+				"steps": protocol.protocol_steps,
+				"currentStep": 0,
+				"id": protocol.id
+			};
+			app.setContext('protocol_step_state', 1, protocol_step_state);
+
+			askWithBasicCardAndLinkAndSuggestions(speech, title, text, destinationName, suggestionUrl, suggestions);
+		} else {
+			askWithSimpleResponseAndSuggestions('You need to search for a protocol before getting instructions for it. What do you want to do now?', ['Search Protocat', 'Exit']);
+		}
+	}
+
+	function protocolStepByStepMove (stepChange) {
+		let protocol_step_state = (app.getContext('protocol_step_state') ? app.getContext('protocol_step_state').parameters : {});
+
+		if (typeof protocol_step_state.currentStep == 'number') {
+			let newCurrentStep = protocol_step_state.currentStep + stepChange;
+			if (newCurrentStep > protocol_step_state.steps.length) {
+				// End instructions
+				app.setContext('protocol_step_state', 1, protocol_step_state);
+				askWithSimpleResponseAndSuggestions('There are no more steps in this guide. Do you want me to exit, repeat the last step or go back?', ['Exit', 'Repeat', 'Go back', 'Search Protocat again', 'Search iGEM Registry']);
+			} else if (newCurrentStep < 0) {
+				// Not allowed to go back
+				app.setContext('protocol_step_state', 1, protocol_step_state);
+				askWithSimpleResponseAndSuggestions('You can\'t go back further than step 1! Would you like me to repeat step 1 or move on to step 2?', ['Repeat step 1', 'Move on to step 2']);
+			} else {
+				// Valid move
+				protocol_step_state.currentStep = newCurrentStep;
+				protocolStepByStepShow(protocol_step_state);
+			}
+		} else {
+			if(app.getContext('protocol') ? app.getContext('protocol').parameters : false) {
+				protocolStepByStepBegin(app);
+			} else {
+				askWithSimpleResponseAndSuggestions('You need to search for a protocol before getting instructions for it. What do you want to do now?', ['Search Protocat', 'Exit']);
+			}
+		}
+	}
+
+	function protocolStepByStepShow (protocol_step_state) {
+		let step = protocol_step_state.steps[protocol_step_state.currentStep];
+
+		let title = 'Step ' + step.step_number.toString();
+
+		let speech = title + '. ';
+		speech += (step.warning.clean() ? 'Warning: ' + step.warning.clean() + '. ' : '');
+		speech += step.action.clean();
+
+		let nextStepPhrases = [
+			'Want the next step now?',
+			'Ready for the next step?',
+			'Should I get the next step?',
+			'Are you ready for the next step?',
+			'Do you want the next step?',
+			'Ready to go ahead?'
+		];
+
+		speech = '<speak><sub alias="' + speech + '">Sure. Here\'s that step. </sub>' + randomFromArray(nextStepPhrases) + '</speak>';
+
+		let text = '';
+		text += (step.warning.clean() ? '**Warning:** ' + step.warning.clean() + '.  \n  \n' : '');
+		text += step.action.clean();
+
+		let destinationName = 'View on Protocat';
+		// TODO: Use HTTPS
+		let suggestionUrl = 'http://protocat.org/protocol/' + protocol_step_state.id + '/#step' + step.step_number.toString();
+
+		let suggestions = ['Next', 'Repeat', 'Back'];
+
+		app.setContext('protocol_step_state', 1, protocol_step_state);
+		askWithBasicCardAndLinkAndSuggestions(speech, title, text, destinationName, suggestionUrl, suggestions);
+	}
+
 	const actionMap = new Map();
 	actionMap.set('get_part', getPart);
 	actionMap.set('protocat_search', protocatSearch);
 	actionMap.set('protocat_list_select', protocatListSelect);
+
+	actionMap.set('protocol_step_by_step_begin', protocolStepByStepBegin);
+	actionMap.set('protocol_step_by_step_next', (app) => { protocolStepByStepMove(1); });
+	actionMap.set('protocol_step_by_step_repeat', (app) => { protocolStepByStepMove(0); });
+	actionMap.set('protocol_step_by_step_back', (app) => { protocolStepByStepMove(-1); });
 	app.handleRequest(actionMap);
 
 	// All these helper methods pretty much do what they say on the tin,
