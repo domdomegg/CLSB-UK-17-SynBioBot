@@ -88,7 +88,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 				let speech = 'Which of these looks right?';
 
 				if (!app.hasSurfaceCapability(app.SurfaceCapabilities.SCREEN_OUTPUT)) {
-					speech = 'Which of these sounds right?';
+					speech = 'Which of these sounds right? ';
 					listOptions.forEach(function (option) {
 						speech += option.title + '. ';
 					});
@@ -123,7 +123,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 
 		let title = protocol.title;
 		let speech = '';
-		speech += 'Here\'s the protocol you asked for. ';
+		speech += (app.hasSurfaceCapability(app.SurfaceCapabilities.SCREEN_OUTPUT) ? 'Here\'s the protocol you asked for. ' : 'Ok, I\'ve opened ' + protocol.title.clean() + '. ');
 		speech += (protocol.description ? protocol.description.clean().split('.')[0] + '. ' : '');
 		speech += 'Do you want a step-by-step guide, to search Protocat again or exit?'
 
