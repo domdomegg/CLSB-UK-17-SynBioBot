@@ -202,7 +202,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 		let speech = title + '. ';
 		speech += (step.warning.clean() ? 'Warning: ' + step.warning.clean() + '. ' : '');
 		// Regex replaces 'u' used to mean micro with actual micro
-		speech += step.action.clean().replace(/([0-9]+)\s*uls*/g, '$1μl') + '. ';
+		speech += step.action.clean().replace(/([0-9]+)\s*u([lLg])+s*/g, '$1μ$2') + '. ';
 
 		let nextStepPhrases = [
 			'Want the next step now?',
@@ -217,7 +217,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 
 		let text = '';
 		text += (step.warning.clean() ? '**Warning:** ' + step.warning.clean() + '.  \n  \n' : '');
-		text += step.action.clean().replace(/([0-9]+)\s*uls*/g, '$1μl');
+		text += step.action.clean().replace(/([0-9]+)\s*u([lLg])+s*/g, '$1μ$2');
 
 		let destinationName = 'View on Protocat';
 		// TODO: Use HTTPS
