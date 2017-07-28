@@ -55,7 +55,7 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 			var fuseJs = require('fuse.js');
 			let searchOptions = {
 			  shouldSort: true,
-			  threshold: 0.6,
+			  threshold: 0.4,
 			  location: 0,
 			  distance: 100,
 			  maxPatternLength: 32,
