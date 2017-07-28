@@ -85,8 +85,16 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 					});
 				}
 
-				// TODO: Make this work well with devices without screens
-				askWithList('Which one of these looks right?', 'Protocat results', listOptions);
+				let speech = 'Which of these looks right?';
+
+				if (!app.hasSurfaceCapability(app.SurfaceCapabilities.SCREEN_OUTPUT)) {
+					speech = 'Which of these sounds right?';
+					listOptions.forEach(function (option) {
+						speech += option.title + '. ';
+					});
+				}
+
+				askWithList(speech, 'Protocat results', listOptions);
 			};
 		});
 	}
