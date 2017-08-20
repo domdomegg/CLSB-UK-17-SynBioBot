@@ -101,12 +101,21 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5847"
-       id="linearGradient5849"
+       id="linearGradient4519"
+       gradientUnits="userSpaceOnUse"
        x1="355.95483"
        y1="213.11292"
        x2="355.95483"
-       y2="277.57397"
-       gradientUnits="userSpaceOnUse" />
+       y2="277.57397" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5847"
+       id="linearGradient4521"
+       gradientUnits="userSpaceOnUse"
+       x1="355.95483"
+       y1="213.11292"
+       x2="355.95483"
+       y2="277.57397" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -116,8 +125,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="1122.6592"
-     inkscape:cy="911.73602"
+     inkscape:cx="950.0553"
+     inkscape:cy="739.3945"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -138,7 +147,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -156,85 +165,80 @@
        y="11.25"
        ry="0.011012236" />
     <path
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.61469746;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.26771665;stroke-opacity:1"
-       d="M 513.25584,5.0716463 492.69249,25.63499 c -9.63129,-8.127282 -23.9569,-7.656764 -33.03724,1.423564 l -12.53997,12.539054 7.95914,7.959141 -5.67291,5.674738 c -1.55306,-0.578177 -3.37788,-0.25163 -4.61799,0.988982 -1.23896,1.239356 -1.56682,3.063159 -0.99081,4.616123 l -5.88835,5.888325 -7.95821,-7.958206 -12.53903,12.539988 c -9.08035,9.080347 -9.55085,23.405942 -1.42357,33.037221 l -23.75407,23.75501 2.54161,2.54069 23.72065,-23.72065 c 9.62984,8.54981 24.28165,8.2142 33.51175,-1.0159 l 12.53997,-12.539983 -7.96005,-7.960057 5.88832,-5.887395 c 1.55341,0.57665 3.37833,0.249763 4.61799,-0.989916 1.23916,-1.23914 1.56537,-3.061971 0.98896,-4.61427 l 5.67383,-5.675671 7.95914,7.959142 12.53999,-12.539989 c 9.23008,-9.230088 9.56571,-23.881916 1.0159,-33.511759 l 20.5299,-20.529903 z m -55.64076,45.0267077 13.59676,13.595819 -5.67291,5.673821 c -1.5533,-0.578752 -3.37851,-0.251935 -4.6189,0.988965 -1.23948,1.239877 -1.56785,3.064596 -0.99084,4.617991 l -5.88647,5.88741 -13.59674,-13.59582 5.88554,-5.887409 c 1.55415,0.578392 3.38114,0.25066 4.62171,-0.9899 1.23974,-1.239714 1.56554,-3.063373 0.98803,-4.616121 z m -9.74763,5.531734 c 0.42326,4.86e-4 0.84643,0.167119 1.17749,0.497745 0.66211,0.662113 0.66486,1.692839 0.004,2.354952 -0.6621,0.662131 -1.69563,0.662095 -2.35774,0 -0.66193,-0.661933 -0.66159,-1.694672 0,-2.356803 0.33106,-0.331057 0.75422,-0.496415 1.17749,-0.495894 z m 16.13649,16.136507 c 0.42328,4.68e-4 0.84643,0.166041 1.17749,0.49681 0.66211,0.662113 0.66392,1.693775 0.001,2.355887 -0.66211,0.662098 -1.69565,0.662112 -2.35776,0 -0.66209,-0.662112 -0.66209,-1.695643 0,-2.357756 0.33106,-0.331057 0.75514,-0.49548 1.17843,-0.494941 z"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6.67686176;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.26771665;stroke-opacity:1"
+       d="M 513.82756,5.0716463 497.88984,21.009363 c -7.46478,-6.299089 -18.56791,-5.934411 -25.60567,1.10334 l -9.71916,9.718453 6.16877,6.168769 -4.39682,4.398233 c -1.2037,-0.448119 -2.61804,-0.195027 -3.57919,0.766515 -0.96026,0.960568 -1.21437,2.374116 -0.76794,3.577748 l -4.56379,4.563774 -6.16805,-6.168045 -9.71843,9.719176 c -7.03777,7.037766 -7.40243,18.140886 -1.10335,25.605654 l -18.4107,18.411432 1.96989,1.969178 18.3848,-18.384805 c 7.46365,6.62657 18.81961,6.366454 25.97344,-0.787378 l 9.71916,-9.719173 -6.16947,-6.16948 4.56377,-4.563053 c 1.20398,0.446935 2.61839,0.19358 3.57919,-0.767239 0.96042,-0.960401 1.21325,-2.373195 0.7665,-3.576312 l 4.39753,-4.398955 6.16877,6.16877 9.71918,-9.719177 c 7.15381,-7.153824 7.41394,-18.509792 0.78737,-25.973447 l 15.9118,-15.9117981 z m -43.12463,34.8981617 10.53823,10.537504 -4.39681,4.397521 c -1.2039,-0.448564 -2.61853,-0.195263 -3.57991,0.766502 -0.96066,0.960973 -1.21516,2.37523 -0.76795,3.579196 l -4.56234,4.563065 -10.53821,-10.537504 4.56161,-4.563065 c 1.20455,0.448286 2.62057,0.194276 3.58208,-0.767226 0.96087,-0.960846 1.21338,-2.374282 0.76578,-3.577746 z m -7.55495,4.287397 c 0.32805,3.76e-4 0.65603,0.129526 0.91262,0.385779 0.51317,0.513174 0.5153,1.312043 0.003,1.825217 -0.51316,0.513188 -1.31421,0.51316 -1.82738,0 -0.51303,-0.513034 -0.51277,-1.313464 0,-1.826651 0.25659,-0.256588 0.58457,-0.384749 0.91262,-0.384345 z m 12.50666,12.506675 c 0.32807,3.63e-4 0.65603,0.128691 0.91262,0.385055 0.51317,0.513174 0.51458,1.312769 7.8e-4,1.825942 -0.51317,0.513162 -1.31422,0.513173 -1.82739,0 -0.51316,-0.513173 -0.51316,-1.314216 0,-1.82739 0.25658,-0.256588 0.58527,-0.384024 0.91334,-0.383607 z"
        id="path4782"
        clip-path="none"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccscccccccscccccccccccscccccccccccscccc" />
     <text
        id="text5755"
-       y="94.737503"
-       x="197.67784"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:75.83670044px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.89598477"
+       y="99.033432"
+       x="217.24075"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:46.04600525px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.151191"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:75.83670044px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:1.89598477"
-         y="94.737503"
-         x="197.67783"
-         id="tspan5753"
-         sodipodi:role="line">SynBioBot</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:46.04600525px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:1.151191"
+         y="99.033432"
+         x="217.24075"
+         sodipodi:role="line"
+         id="tspan4518">Synthetic Biology</tspan></text>
     <text
        id="text5771"
-       y="236.22864"
-       x="20.625172"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:0.63602942;stroke:none;stroke-width:0.40966237;"
+       y="252.10365"
+       x="30.150175"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:0.63602941;stroke:none;stroke-width:0.40966237"
        xml:space="preserve"><tspan
          id="tspan5769"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.40966237;fill-opacity:0.63602942;"
-         y="236.22864"
-         x="20.625172"
-         sodipodi:role="line">Ok Google, ask SynBioBot to</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:0.63602941;stroke-width:0.40966237"
+         y="252.10365"
+         x="30.150175"
+         sodipodi:role="line">...ask Synthetic Biology to</tspan></text>
     <g
        id="g5797"
-       style="fill:url(#linearGradient5849);fill-opacity:1"
-       transform="translate(-2.357243,19.158732)">
+       style="fill:#ffffff;fill-opacity:1"
+       transform="translate(-18.232243,35.033733)">
       <text
          id="text5777"
          y="217.06995"
          x="251.58258"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke:none;stroke-width:0.40966237"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.40966237"
          xml:space="preserve"><tspan
            id="tspan5775"
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke-width:0.40966237"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.40966237"
            y="217.06995"
            x="251.58258"
            sodipodi:role="line">search the iGEM Parts Registry</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke:none;stroke-width:0.40966237"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.40966237"
          x="251.58258"
          y="238.13013"
          id="text5785"><tspan
            sodipodi:role="line"
            x="251.58258"
            y="238.13013"
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke-width:0.40966237"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.40966237"
            id="tspan5783">search Protocat</tspan></text>
       <text
          id="text5789"
          y="259.40332"
          x="251.58258"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke:none;stroke-width:0.40966237"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.40966237"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke-width:0.40966237"
-           y="259.40332"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.40966237"
+           y="274.6116"
            x="251.58258"
            sodipodi:role="line"
-           id="tspan5851">get part information for B0034</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke-width:0.40966237"
-           y="279.88559"
-           x="251.58258"
-           sodipodi:role="line"
-           id="tspan5871">lead me through this protocol</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#linearGradient5849);fill-opacity:1;stroke-width:0.40966237"
-           y="300.36789"
+           id="tspan5871" /><tspan
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.3858223px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.40966237"
+           y="295.0939"
            x="251.58258"
            sodipodi:role="line"
            id="tspan5869" /></text>
     </g>
     <path
-       style="fill:none;stroke:#fffffa;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -12.809239,127.3017 H 393.65109"
+       style="fill:none;stroke:#fffffa;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -12.620247,99.88344 H 421.19812"
        id="path5801"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -242,23 +246,33 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path5803"
-       d="M -11.828627,208.53235 H 544.6755"
+       d="M -11.828627,224.40736 H 544.6755"
        style="fill:none;stroke:#fffffa;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text5809"
-       y="160.70084"
-       x="254.12755"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20.48561287px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.51216912"
+       y="136.1926"
+       x="254.07773"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.33446503px;line-height:1.25;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.40838453"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20.48561287px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.51216912"
-         y="160.70084"
-         x="254.12755"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.33446503px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.40838453"
+         y="136.1926"
+         x="254.07773"
          sodipodi:role="line"
-         id="tspan5817">The perfect lab assistant for iGEMers</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:20.48561287px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.51216912"
-         y="186.30785"
-         x="254.12755"
+         id="tspan4529">The perfect lab assistant for iGEMers and other</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.33446503px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.40838453"
+         y="156.61067"
+         x="254.07773"
          sodipodi:role="line"
-         id="tspan5821">and other synthetic biologists</tspan></text>
+         id="tspan4537">synthetic biologists. Synthetic Biology can</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.33446503px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.40838453"
+         y="177.02876"
+         x="254.07773"
+         sodipodi:role="line"
+         id="tspan4562">search the Parts Registry and lead you</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16.33446503px;font-family:'URW Gothic L';-inkscape-font-specification:'URW Gothic L, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.40838453"
+         y="197.44684"
+         x="254.07773"
+         sodipodi:role="line"
+         id="tspan4524">through protocols step-by-step</tspan></text>
   </g>
 </svg>
