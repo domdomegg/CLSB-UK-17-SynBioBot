@@ -1,0 +1,302 @@
+id,name,synonyms,country,track,size
+2300,Macquarie Australia,Macquarie,Australia,Energy,18
+2395,Melbourne,,Australia,,11
+2417,Sydney Australia,Sydney,Australia,Therapeutics,11
+2294,BOKU Vienna,"BOKU,Vienna",Austria,Foundational Advance,22
+2348,NAWI Graz,,Austria,Information Processing,19
+2263,KU Leuven,,Belgium,New Application,16
+2341,UCLouvain,,Belgium,,14
+2457,Amazonas Brazil,Amazonas,Brazil,Foundational Advance,25
+2270,AQA Unesp,AQA,Brazil,Therapeutics,17
+2486,USP Brazil,,Brazil,New Application,22
+2515,Bulgaria,,Bulgaria,,4
+2433,British Columbia,,Canada,,14
+2260,Calgary,,Canada,,31
+2331,Dalhousie,,Canada,,21
+2443,Lethbridge,,Canada,,24
+2481,Lethbridge HS,Lethbridge High School,Canada,High School,17
+2493,McMaster II,McMaster Two,Canada,,12
+2470,McMasterU,McMaster,Canada,,31
+2484,Queens Canada,Queens,Canada,,15
+2469,Toronto,,Canada,,13
+2490,U of Guelph,Guelph,Canada,,7
+2389,UAlberta,Alberta,Canada,Foundational Advance,14
+2236,UNBC Canada,UNBC,Canada,Therapeutics,11
+2327,uOttawa,Ottowa,Canada,,11
+2397,UrbanTundra Edmonton,Edmonton,Canada,High School,17
+2475,Waterloo,,Canada,,21
+2454,PASantiago Chile,,Chile,High School,22
+2289,UChile Biotec,,Chile,,18
+2425,UChile OpenBio CeBiB,,Chile,Environment,15
+2509,ASTWS China,ASTWS,China,High School,13
+2371,BGIC Union,BGIC,China,High School,14
+2305,BIT,"Beijing,Beijing Institute of Technology",China,Diagnostics,35
+2368,BIT China,,China,Food & Nutrition,26
+2326,BNDS China,BNDS,China,High School,14
+2220,BNU China,BNU,China,,26
+2281,CIEI BJ,,China,High School,17
+2322,CIEI China,,China,High School,17
+2506,CPU CHINA,CPU,China,Therapeutics,14
+2308,ECUST,,China,Energy,21
+2384,FAFU CHINA,FAFU,China,,27
+2446,Fudan,,China,Information Processing,12
+2460,Fudan China,,China,Information Processing,10
+2415,GZHS United,GZHS,China,High School,11
+2304,HBUT China,HBUT,China,Environment,23
+2346,HFLS H2Z Hangzhou,HFLS,China,High School,15
+2466,HFUT China,HFUT,China,Software,20
+2336,HUST China,HUST,China,,6
+2381,HZAU China,HZAU,China,Foundational Advance,19
+2317,Jilin China,,China,Environment,23
+2358,JNFLS,,China,High School,18
+2377,Lanzhou,,China,Environment,18
+2257,Nanjing China,,China,,18
+2209,Nanjing NFLS,,China,High School,19
+2365,NAU CHINA,,China,Food & Nutrition,28
+2302,NEFU China,,China,,3
+2288,NEU China,,China,,12
+2208,NJU China,,China,Therapeutics,16
+2280,NKU China,,China,,26
+2347,NPU China,,China,Manufacturing,15
+2440,NUDT CHINA,,China,,13
+2399,NWU CHINA,,China,Environment,15
+2400,NYU Shanghai,,China,,10
+2314,OUC China,,China,,17
+2243,Peking,,China,Information Processing,20
+2210,RDFZ China,,China,High School,18
+2276,SCU China,,China,,4
+2334,SCU WestChina,,China,Therapeutics,23
+2360,SCUT China A,,China,Environment,13
+2366,SCUT China B,,China,Foundational Advance,17
+2325,SCUT FSE CHINA,,China,,12
+2239,SDSZ China,,China,High School,14
+2321,SDU CHINA,,China,Therapeutics,21
+2315,Shanghaitech,,China,,21
+2200,Shenzhen SFLS,,China,High School,29
+2507,SHSBNU China,,China,High School,11
+2472,SIAT SCIE,,China,High School,13
+2311,SiCAU China,,China,New Application,15
+2285,SJTU BioX Shanghai,,China,,18
+2211,SJTU Software,,China,Software,18
+2224,SMS Shenzhen,,China,High School,25
+2244,SSTi SZGD,,China,Environment,15
+2216,SUIS Alpha Shanghai,,China,High School,12
+2492,SUSTech Shenzhen,,China,Foundational Advance,14
+2298,SYSU CHINA,,China,,17
+2214,SYSU Software,,China,Software,28
+2232,SZU China,,China,,18
+2407,Tianjin,,China,,24
+2328,TJU China,,China,New Application,19
+2279,TMMU China,,China,Foundational Advance,8
+2374,Tongji China,,China,,15
+2247,Tsinghua,,China,,13
+2250,Tsinghua A,,China,Information Processing,15
+2267,TUST China,,China,,17
+2287,UCAS,,China,Food & Nutrition,19
+2286,UESTC China,,China,,21
+2519,UST Beijing,,China,Food & Nutrition,39
+2242,USTC,,China,Manufacturing,34
+2241,USTC Software,,China,Software,45
+2462,WHU China,,China,Environment,26
+2513,Worldshaper Nanjing,,China,High School,16
+2514,Worldshaper Wuhan,,China,High School,10
+2512,Worldshaper XSHS,,China,High School,14
+2309,XJTLU CHINA,,China,Therapeutics,16
+2310,XMU China,,China,Environment,29
+2207,ZJU China,,China,,17
+2277,ZJUT China,,China,,25
+2355,DTU Denmark,"DTU,Technical University of Denmark",Denmark,,15
+2449,SDU Denmark,,Denmark,,17
+2455,UCopenhagen,,Denmark,,18
+2217,AFCM Egypt,"AFCM,Egypt",Egypt,Therapeutics,22
+2349,Tartu TUIT,,Estonia,,14
+2342,Aalto Helsinki,"Aalto,Helsinki",Finland,Manufacturing,13
+2255,Aix Marseille,,France,Environment,44
+2307,Bordeaux,,France,,24
+2448,Evry Paris Saclay,,France,,7
+2299,Grenoble Alpes,Grenoble,France,,14
+2278,INSA UPS France,,France,,21
+2282,IONIS PARIS,,France,,23
+2510,Paris Bettencourt,,France,,15
+2198,Pasteur Paris,,France,,19
+2504,UPMC PARIS,,France,,22
+2225,Aachen,,Germany,,20
+2482,Berlin diagnostX,Berlin,Germany,,10
+2201,Bielefeld CeBiTec,Bielefeld,Germany,Foundational Advance,19
+2271,Cologne Duesseldorf,,Germany,Foundational Advance,29
+2419,Franconia,,Germany,,39
+2295,Freiburg,,Germany,Therapeutics,22
+2401,Hamburg,,Germany,Therapeutics,27
+2398,Heidelberg,,Germany,Foundational Advance,20
+2323,Munich,,Germany,,22
+2483,Potsdam,,Germany,Foundational Advance,19
+2497,Stuttgart,,Germany,,16
+2380,TU Darmstadt,,Germany,Manufacturing,24
+2273,TU Dresden,,Germany,,19
+2372,Tuebingen,,Germany,Therapeutics,15
+2402,UBonn HBRS,,Germany,,19
+2252,AshesiGhana,,Ghana,Environment,11
+2364,Greece,,Greece,,21
+2219,HK SKHLPSS,SKHLPSS,Hong Kong,High School,19
+2254,Hong Kong CUHK,CUHK,Hong Kong,,19
+2202,Hong Kong HKU,HKU,Hong Kong,Diagnostics,20
+2240,Hong Kong HKUST,HKUST,Hong Kong,Foundational Advance,32
+2197,Hong Kong UCCKE,UCCKE,Hong Kong,High School,19
+2418,Szeged SA RMG,,Hungary,High School,12
+2441,DEIAGRA,,India,Environment,11
+2479,ICT Mumbai,ICT,India,Environment,7
+2319,IISc Bangalore,,India,,25
+2320,IISER Mohali INDIA,,India,,10
+2258,IISER Pune India,,India,Diagnostics,13
+2525,IIT Delhi,,India,,2
+2318,IIT Madras,,India,,19
+2473,NIPER Guwahati,,India,,13
+2338,REC CHENNAI,,India,,26
+2379,SVCE CHENNAI,,India,Foundational Advance,19
+2378,ITB Indonesia,,Indonesia,Energy,19
+2344,UCC Ireland,,Ireland,,9
+2520,TECHNION ISRAEL,,Israel,,15
+2408,Tel Hai,,Israel,Food & Nutrition,13
+2343,UNIFI,,Italy,,18
+2226,ASIJ TOKYO,"ASIJ,Tokyo",Japan,High School,22
+2337,Botchan Lab Tokyo,,Japan,,12
+2438,Gifu,,Japan,,17
+2414,HokkaidoU Japan,Hokkaido,Japan,,6
+2335,KAIT JAPAN,,Japan,,11
+2233,Kobe,,Japan,Food & Nutrition,11
+2403,Kyoto,,Japan,,8
+2256,Nagahama,,Japan,,9
+2505,TokyoTech,,Japan,Information Processing,13
+2516,NU Kazakhstan,,Kazakhstan,Environment,7
+2437,KUAS Korea,,"Korea, Republic Of",,10
+2496,TNCR Korea,,"Korea, Republic Of",High School,14
+2259,Vilnius Lithuania,,Lithuania,,15
+2471,Tec Chihuahua,,Mexico,,26
+2246,TecCEM,,Mexico,,23
+2434,TecMonterrey GDA,,Mexico,Environment,18
+2385,Amsterdam,,Netherlands,Manufacturing,12
+2361,Groningen,,Netherlands,Food & Nutrition,17
+2356,TU Eindhoven,Eindhoven,Netherlands,,10
+2306,TUDelft,Delft,Netherlands,,27
+2351,Utrecht,,Netherlands,Diagnostics,20
+2387,Wageningen UR,Wageningen,Netherlands,,19
+2291,SECA NZ,SECA,New Zealand,,9
+2265,NTNU Trondheim,,Norway,,10
+2424,UiOslo Norway,,Norway,,20
+2518,Peshawar,,Pakistan,,16
+2498,ColegioFDR Peru,FDR,Peru,High School,17
+2467,CMUQ,,Qatar,Environment,11
+2488,Moscow RF,,Russian Federation,,11
+2316,NTU SINGAPORE,,Singapore,Foundational Advance,13
+2447,NUS Singapore,,Singapore,,10
+2269,Valencia UPV,,Spain,,22
+2329,Chalmers Gothenburg,,Sweden,Diagnostics,15
+2474,Linkoping Sweden,,Sweden,,14
+2266,Lund,,Sweden,Environment,14
+2235,Stockholm,,Sweden,Therapeutics,28
+2423,Uppsala,,Sweden,,25
+2203,EPFL,,Switzerland,Diagnostics,16
+2500,ETH Zurich,Zurich,Switzerland,Therapeutics,14
+2292,CCU Taiwan,CCU,Taiwan,,24
+2376,CGU Taiwan,CGU,Taiwan,,17
+2382,CSMU NCHU Taiwan,,Taiwan,,15
+2230,Mingdao,,Taiwan,High School,20
+2275,NCKU Tainan,,Taiwan,Environment,22
+2262,NCTU Formosa,,Taiwan,,24
+2354,NTHU Taiwan,,Taiwan,Environment,20
+2350,NYMU Taipei,,Taiwan,,17
+2229,TAS Taipei,,Taiwan,High School,28
+2383,TCFSH Taiwan,,Taiwan,High School,13
+2234,Bilkent UNAMBG,Bilkent,Turkey,Diagnostics,12
+2495,NYU Abu Dhabi,,United Arab Emirates,,18
+2293,Bristol,,United Kingdom,,14
+2404,Cardiff Wales,Cardiff,United Kingdom,,12
+2206,CLSB UK,"City of London,City of London School",United Kingdom,High School,20
+2330,Edinburgh OG,Edinburgh overgrad,United Kingdom,,13
+2406,Edinburgh UG,"Edinburgh,Edinburgh undergrad",United Kingdom,,13
+2324,Exeter,,United Kingdom,,19
+2442,Glasgow,,United Kingdom,,15
+2245,Judd UK,"Judd,Judd School",United Kingdom,High School,17
+2340,Kent,,United Kingdom,,13
+2213,Manchester,,United Kingdom,Environment,13
+2205,Newcastle,,United Kingdom,Foundational Advance,19
+2450,Oxford,,United Kingdom,Diagnostics,14
+2508,Sheffield,,United Kingdom,,11
+2284,UNOTT,Nottingham,United Kingdom,,15
+2463,Warwick,,United Kingdom,,12
+2420,Westminster UK,Westminster,United Kingdom,Therapeutics,17
+2489,York,,United Kingdom,,18
+2459,AHUT China,AHUT,United States,Information Processing,23
+2357,Arizona State,Arizona,United States,Information Processing,10
+2253,Austin UTexas,Austin,United States,,15
+2458,Austin UTexas LASA,Austin LASA,United States,High School,15
+2436,Baltimore Bio Crew,Baltimore,United States,High School,13
+2411,BostonU,Boston,United States,,12
+2409,BostonU HW,Boston hardware,United States,Hardware,9
+2248,Cadets2Vets,"Cadets,Vets",United States,Environment,19
+2465,CAPS Kansas,Kansas,United States,High School,3
+2491,CCA San Diego,CCA,United States,High School,24
+2412,ColumbiaNYC,Columbia,United States,,10
+2296,Cornell,,United States,,32
+2204,CSU Fort Collins,CSU,United States,,6
+2249,CU Boulder,Boulder,United States,,13
+2435,Dartmouth,,United States,,9
+2444,Delaware,,United States,Therapeutics,13
+2410,Delgado Ivy Marin,Delgado,United States,,9
+2464,Duke,,United States,,7
+2290,East Chapel Hill,,United States,High School,13
+2487,Emory,,United States,,15
+2511,EpiphanyNYC,Epiphany,United States,High School,3
+2523,Florida Atlantic,,United States,Software,14
+2367,FSU,FSU,United States,Therapeutics,15
+2221,Gaston Day School,Gaston,United States,,9
+2524,Georgia State,,United States,,15
+2251,Harvard,,United States,,8
+2363,iTesla SoundBio,Tesla,United States,Environment,22
+2268,Kingsborough NY,Kingsborough,United States,,12
+2353,Lambert GA,Lambert,United States,High School,13
+2478,LUBBOCK TTU,Lubbock,United States,,18
+2238,ManhattanCol Bronx,Manhattan,United States,,16
+2301,Michigan,,United States,,17
+2274,Michigan Software,,United States,Software,22
+2375,Minnesota,,United States,,14
+2362,Missouri Rolla,,United States,Environment,5
+2429,MIT,"M. I. T.,Massachusetts Institute of Technology",United States,,13
+2405,MSU Michigan,MSU,United States,Environment,9
+2431,NortheasternU Boston,Northeastern,United States,Foundational Advance,11
+2396,Northwestern,,United States,,14
+2456,Penn,,United States,,5
+2476,Pittsburgh,,United States,,12
+2432,Princeton,,United States,,19
+2228,Purdue,,United States,,13
+2390,RHIT,,United States,,13
+2194,Rice,,United States,,18
+2503,RPI Troy NY,,United States,Therapeutics,16
+2485,Stanford Brown,Stanford,United States,Manufacturing,18
+2196,Stony Brook,,United States,,33
+2369,TP CC San Diego,,United States,High School,12
+2416,Tufts,,United States,,8
+2212,UC San Diego,,United States,New Application,9
+2428,UChicago,Chicago,United States,,5
+2332,UCL,University College London,United States,Foundational Advance,19
+2386,UConn,Conn,United States,Energy,23
+2223,UCSC,,United States,,18
+2352,UFlorida,Florida,United States,Environment,12
+2392,UGA Georgia,Georgia,United States,,13
+2427,UIOWA,Iowa,United States,Manufacturing,15
+2468,UIUC Illinois,Illinois,United States,Foundational Advance,11
+2215,ULaVerne Collab,LaVerne,United States,Environment,10
+2477,UMaryland,Maryland,United States,,22
+2430,UMBC,,United States,Environment,9
+2499,UNC Asheville,,United States,Environment,6
+2461,UNebraska Lincoln,Nebraska,United States,Environment,14
+2522,US AFRL CarrollHS,Carrol,United States,High School,20
+2222,USMA West Point,,United States,Diagnostics,16
+2199,USNA Annapolis,,United States,,14
+2451,UT Knoxville,,United States,,16
+2272,Virginia,,United States,Environment,10
+2391,Washington,,United States,,39
+2195,WashU StLouis,"Washington St Louis,St Louis",United States,,9
+2333,William and Mary,,United States,,12
+2452,WLC Milwaukee,,United States,,7
+2413,WPI Worcester,,United States,,8

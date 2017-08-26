@@ -1,0 +1,2313 @@
+[
+    {
+        "id": 2300,
+        "name": {
+            "value": "Macquarie Australia",
+            "synonyms": [
+                "Macquarie"
+            ]
+        }
+    },
+    {
+        "id": 2395,
+        "name": {
+            "value": "Melbourne",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2417,
+        "name": {
+            "value": "Sydney Australia",
+            "synonyms": [
+                "Sydney"
+            ]
+        }
+    },
+    {
+        "id": 2294,
+        "name": {
+            "value": "BOKU Vienna",
+            "synonyms": [
+                "BOKU",
+                "Vienna"
+            ]
+        }
+    },
+    {
+        "id": 2348,
+        "name": {
+            "value": "NAWI Graz",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2263,
+        "name": {
+            "value": "KU Leuven",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2341,
+        "name": {
+            "value": "UCLouvain",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2457,
+        "name": {
+            "value": "Amazonas Brazil",
+            "synonyms": [
+                "Amazonas"
+            ]
+        }
+    },
+    {
+        "id": 2270,
+        "name": {
+            "value": "AQA Unesp",
+            "synonyms": [
+                "AQA"
+            ]
+        }
+    },
+    {
+        "id": 2486,
+        "name": {
+            "value": "USP Brazil",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2515,
+        "name": {
+            "value": "Bulgaria",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2433,
+        "name": {
+            "value": "British Columbia",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2260,
+        "name": {
+            "value": "Calgary",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2331,
+        "name": {
+            "value": "Dalhousie",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2443,
+        "name": {
+            "value": "Lethbridge",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2481,
+        "name": {
+            "value": "Lethbridge HS",
+            "synonyms": [
+                "Lethbridge High School"
+            ]
+        }
+    },
+    {
+        "id": 2493,
+        "name": {
+            "value": "McMaster II",
+            "synonyms": [
+                "McMaster Two"
+            ]
+        }
+    },
+    {
+        "id": 2470,
+        "name": {
+            "value": "McMasterU",
+            "synonyms": [
+                "McMaster"
+            ]
+        }
+    },
+    {
+        "id": 2484,
+        "name": {
+            "value": "Queens Canada",
+            "synonyms": [
+                "Queens"
+            ]
+        }
+    },
+    {
+        "id": 2469,
+        "name": {
+            "value": "Toronto",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2490,
+        "name": {
+            "value": "U of Guelph",
+            "synonyms": [
+                "Guelph"
+            ]
+        }
+    },
+    {
+        "id": 2389,
+        "name": {
+            "value": "UAlberta",
+            "synonyms": [
+                "Alberta"
+            ]
+        }
+    },
+    {
+        "id": 2236,
+        "name": {
+            "value": "UNBC Canada",
+            "synonyms": [
+                "UNBC"
+            ]
+        }
+    },
+    {
+        "id": 2327,
+        "name": {
+            "value": "uOttawa",
+            "synonyms": [
+                "Ottowa"
+            ]
+        }
+    },
+    {
+        "id": 2397,
+        "name": {
+            "value": "UrbanTundra Edmonton",
+            "synonyms": [
+                "Edmonton"
+            ]
+        }
+    },
+    {
+        "id": 2475,
+        "name": {
+            "value": "Waterloo",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2454,
+        "name": {
+            "value": "PASantiago Chile",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2289,
+        "name": {
+            "value": "UChile Biotec",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2425,
+        "name": {
+            "value": "UChile OpenBio CeBiB",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2509,
+        "name": {
+            "value": "ASTWS China",
+            "synonyms": [
+                "ASTWS"
+            ]
+        }
+    },
+    {
+        "id": 2371,
+        "name": {
+            "value": "BGIC Union",
+            "synonyms": [
+                "BGIC"
+            ]
+        }
+    },
+    {
+        "id": 2305,
+        "name": {
+            "value": "BIT",
+            "synonyms": [
+                "Beijing",
+                "Beijing Institute of Technology"
+            ]
+        }
+    },
+    {
+        "id": 2368,
+        "name": {
+            "value": "BIT China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2326,
+        "name": {
+            "value": "BNDS China",
+            "synonyms": [
+                "BNDS"
+            ]
+        }
+    },
+    {
+        "id": 2220,
+        "name": {
+            "value": "BNU China",
+            "synonyms": [
+                "BNU"
+            ]
+        }
+    },
+    {
+        "id": 2281,
+        "name": {
+            "value": "CIEI BJ",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2322,
+        "name": {
+            "value": "CIEI China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2506,
+        "name": {
+            "value": "CPU CHINA",
+            "synonyms": [
+                "CPU"
+            ]
+        }
+    },
+    {
+        "id": 2308,
+        "name": {
+            "value": "ECUST",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2384,
+        "name": {
+            "value": "FAFU CHINA",
+            "synonyms": [
+                "FAFU"
+            ]
+        }
+    },
+    {
+        "id": 2446,
+        "name": {
+            "value": "Fudan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2460,
+        "name": {
+            "value": "Fudan China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2415,
+        "name": {
+            "value": "GZHS United",
+            "synonyms": [
+                "GZHS"
+            ]
+        }
+    },
+    {
+        "id": 2304,
+        "name": {
+            "value": "HBUT China",
+            "synonyms": [
+                "HBUT"
+            ]
+        }
+    },
+    {
+        "id": 2346,
+        "name": {
+            "value": "HFLS H2Z Hangzhou",
+            "synonyms": [
+                "HFLS"
+            ]
+        }
+    },
+    {
+        "id": 2466,
+        "name": {
+            "value": "HFUT China",
+            "synonyms": [
+                "HFUT"
+            ]
+        }
+    },
+    {
+        "id": 2336,
+        "name": {
+            "value": "HUST China",
+            "synonyms": [
+                "HUST"
+            ]
+        }
+    },
+    {
+        "id": 2381,
+        "name": {
+            "value": "HZAU China",
+            "synonyms": [
+                "HZAU"
+            ]
+        }
+    },
+    {
+        "id": 2317,
+        "name": {
+            "value": "Jilin China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2358,
+        "name": {
+            "value": "JNFLS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2377,
+        "name": {
+            "value": "Lanzhou",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2257,
+        "name": {
+            "value": "Nanjing China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2209,
+        "name": {
+            "value": "Nanjing NFLS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2365,
+        "name": {
+            "value": "NAU CHINA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2302,
+        "name": {
+            "value": "NEFU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2288,
+        "name": {
+            "value": "NEU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2208,
+        "name": {
+            "value": "NJU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2280,
+        "name": {
+            "value": "NKU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2347,
+        "name": {
+            "value": "NPU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2440,
+        "name": {
+            "value": "NUDT CHINA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2399,
+        "name": {
+            "value": "NWU CHINA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2400,
+        "name": {
+            "value": "NYU Shanghai",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2314,
+        "name": {
+            "value": "OUC China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2243,
+        "name": {
+            "value": "Peking",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2210,
+        "name": {
+            "value": "RDFZ China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2276,
+        "name": {
+            "value": "SCU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2334,
+        "name": {
+            "value": "SCU WestChina",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2360,
+        "name": {
+            "value": "SCUT China A",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2366,
+        "name": {
+            "value": "SCUT China B",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2325,
+        "name": {
+            "value": "SCUT FSE CHINA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2239,
+        "name": {
+            "value": "SDSZ China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2321,
+        "name": {
+            "value": "SDU CHINA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2315,
+        "name": {
+            "value": "Shanghai tech",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2200,
+        "name": {
+            "value": "Shenzhen SFLS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2507,
+        "name": {
+            "value": "SHSBNU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2472,
+        "name": {
+            "value": "SIAT SCIE",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2311,
+        "name": {
+            "value": "SiCAU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2285,
+        "name": {
+            "value": "SJTU BioX Shanghai",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2211,
+        "name": {
+            "value": "SJTU Software",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2224,
+        "name": {
+            "value": "SMS Shenzhen",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2244,
+        "name": {
+            "value": "SSTi SZGD",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2216,
+        "name": {
+            "value": "SUIS Alpha Shanghai",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2492,
+        "name": {
+            "value": "SUSTech Shenzhen",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2298,
+        "name": {
+            "value": "SYSU CHINA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2214,
+        "name": {
+            "value": "SYSU Software",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2232,
+        "name": {
+            "value": "SZU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2407,
+        "name": {
+            "value": "Tianjin",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2328,
+        "name": {
+            "value": "TJU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2279,
+        "name": {
+            "value": "TMMU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2374,
+        "name": {
+            "value": "Tongji China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2247,
+        "name": {
+            "value": "Tsinghua",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2250,
+        "name": {
+            "value": "Tsinghua A",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2267,
+        "name": {
+            "value": "TUST China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2287,
+        "name": {
+            "value": "UCAS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2286,
+        "name": {
+            "value": "UESTC China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2519,
+        "name": {
+            "value": "UST Beijing",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2242,
+        "name": {
+            "value": "USTC",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2241,
+        "name": {
+            "value": "USTC Software",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2462,
+        "name": {
+            "value": "WHU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2513,
+        "name": {
+            "value": "Worldshaper Nanjing",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2514,
+        "name": {
+            "value": "Worldshaper Wuhan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2512,
+        "name": {
+            "value": "Worldshaper XSHS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2309,
+        "name": {
+            "value": "XJTLU CHINA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2310,
+        "name": {
+            "value": "XMU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2207,
+        "name": {
+            "value": "ZJU China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2277,
+        "name": {
+            "value": "ZJUT China",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2355,
+        "name": {
+            "value": "DTU Denmark",
+            "synonyms": [
+                "DTU",
+                "Technical University of Denmark"
+            ]
+        }
+    },
+    {
+        "id": 2449,
+        "name": {
+            "value": "SDU Denmark",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2455,
+        "name": {
+            "value": "UCopenhagen",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2217,
+        "name": {
+            "value": "AFCM Egypt",
+            "synonyms": [
+                "AFCM",
+                "Egypt"
+            ]
+        }
+    },
+    {
+        "id": 2349,
+        "name": {
+            "value": "Tartu TUIT",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2342,
+        "name": {
+            "value": "Aalto Helsinki",
+            "synonyms": [
+                "Aalto",
+                "Helsinki"
+            ]
+        }
+    },
+    {
+        "id": 2255,
+        "name": {
+            "value": "Aix Marseille",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2307,
+        "name": {
+            "value": "Bordeaux",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2448,
+        "name": {
+            "value": "Evry Paris Saclay",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2299,
+        "name": {
+            "value": "Grenoble Alpes",
+            "synonyms": [
+                "Grenoble"
+            ]
+        }
+    },
+    {
+        "id": 2278,
+        "name": {
+            "value": "INSA UPS France",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2282,
+        "name": {
+            "value": "IONIS PARIS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2510,
+        "name": {
+            "value": "Paris Bettencourt",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2198,
+        "name": {
+            "value": "Pasteur Paris",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2504,
+        "name": {
+            "value": "UPMC PARIS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2225,
+        "name": {
+            "value": "Aachen",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2482,
+        "name": {
+            "value": "Berlin diagnostX",
+            "synonyms": [
+                "Berlin"
+            ]
+        }
+    },
+    {
+        "id": 2201,
+        "name": {
+            "value": "Bielefeld CeBiTec",
+            "synonyms": [
+                "Bielefeld"
+            ]
+        }
+    },
+    {
+        "id": 2271,
+        "name": {
+            "value": "Cologne Duesseldorf",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2419,
+        "name": {
+            "value": "Franconia",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2295,
+        "name": {
+            "value": "Freiburg",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2401,
+        "name": {
+            "value": "Hamburg",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2398,
+        "name": {
+            "value": "Heidelberg",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2323,
+        "name": {
+            "value": "Munich",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2483,
+        "name": {
+            "value": "Potsdam",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2497,
+        "name": {
+            "value": "Stuttgart",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2380,
+        "name": {
+            "value": "TU Darmstadt",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2273,
+        "name": {
+            "value": "TU Dresden",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2372,
+        "name": {
+            "value": "Tuebingen",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2402,
+        "name": {
+            "value": "UBonn HBRS",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2252,
+        "name": {
+            "value": "AshesiGhana",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2364,
+        "name": {
+            "value": "Greece",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2219,
+        "name": {
+            "value": "HK SKHLPSS",
+            "synonyms": [
+                "SKHLPSS"
+            ]
+        }
+    },
+    {
+        "id": 2254,
+        "name": {
+            "value": "Hong Kong CUHK",
+            "synonyms": [
+                "CUHK"
+            ]
+        }
+    },
+    {
+        "id": 2202,
+        "name": {
+            "value": "Hong Kong HKU",
+            "synonyms": [
+                "HKU"
+            ]
+        }
+    },
+    {
+        "id": 2240,
+        "name": {
+            "value": "Hong Kong HKUST",
+            "synonyms": [
+                "HKUST"
+            ]
+        }
+    },
+    {
+        "id": 2197,
+        "name": {
+            "value": "Hong Kong UCCKE",
+            "synonyms": [
+                "UCCKE"
+            ]
+        }
+    },
+    {
+        "id": 2418,
+        "name": {
+            "value": "Szeged SA RMG",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2441,
+        "name": {
+            "value": "DEIAGRA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2479,
+        "name": {
+            "value": "ICT Mumbai",
+            "synonyms": [
+                "ICT"
+            ]
+        }
+    },
+    {
+        "id": 2319,
+        "name": {
+            "value": "IISc Bangalore",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2320,
+        "name": {
+            "value": "IISER Mohali INDIA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2258,
+        "name": {
+            "value": "IISER Pune India",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2525,
+        "name": {
+            "value": "IIT Delhi",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2318,
+        "name": {
+            "value": "IIT Madras",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2473,
+        "name": {
+            "value": "NIPER Guwahati",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2338,
+        "name": {
+            "value": "REC CHENNAI",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2379,
+        "name": {
+            "value": "SVCE CHENNAI",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2378,
+        "name": {
+            "value": "ITB Indonesia",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2344,
+        "name": {
+            "value": "UCC Ireland",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2520,
+        "name": {
+            "value": "TECHNION ISRAEL",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2408,
+        "name": {
+            "value": "Tel Hai",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2343,
+        "name": {
+            "value": "UNIFI",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2226,
+        "name": {
+            "value": "ASIJ TOKYO",
+            "synonyms": [
+                "ASIJ",
+                "Tokyo"
+            ]
+        }
+    },
+    {
+        "id": 2337,
+        "name": {
+            "value": "Botchan Lab Tokyo",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2438,
+        "name": {
+            "value": "Gifu",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2414,
+        "name": {
+            "value": "HokkaidoU Japan",
+            "synonyms": [
+                "Hokkaido"
+            ]
+        }
+    },
+    {
+        "id": 2335,
+        "name": {
+            "value": "KAIT JAPAN",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2233,
+        "name": {
+            "value": "Kobe",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2403,
+        "name": {
+            "value": "Kyoto",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2256,
+        "name": {
+            "value": "Nagahama",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2505,
+        "name": {
+            "value": "TokyoTech",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2516,
+        "name": {
+            "value": "NU Kazakhstan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2437,
+        "name": {
+            "value": "KUAS Korea",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2496,
+        "name": {
+            "value": "TNCR Korea",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2259,
+        "name": {
+            "value": "Vilnius Lithuania",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2471,
+        "name": {
+            "value": "Tec Chihuahua",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2246,
+        "name": {
+            "value": "TecCEM",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2434,
+        "name": {
+            "value": "TecMonterrey GDA",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2385,
+        "name": {
+            "value": "Amsterdam",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2361,
+        "name": {
+            "value": "Groningen",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2356,
+        "name": {
+            "value": "TU Eindhoven",
+            "synonyms": [
+                "Eindhoven"
+            ]
+        }
+    },
+    {
+        "id": 2306,
+        "name": {
+            "value": "TUDelft",
+            "synonyms": [
+                "Delft"
+            ]
+        }
+    },
+    {
+        "id": 2351,
+        "name": {
+            "value": "Utrecht",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2387,
+        "name": {
+            "value": "Wageningen UR",
+            "synonyms": [
+                "Wageningen"
+            ]
+        }
+    },
+    {
+        "id": 2291,
+        "name": {
+            "value": "SECA NZ",
+            "synonyms": [
+                "SECA"
+            ]
+        }
+    },
+    {
+        "id": 2265,
+        "name": {
+            "value": "NTNU Trondheim",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2424,
+        "name": {
+            "value": "UiOslo Norway",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2518,
+        "name": {
+            "value": "Peshawar",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2498,
+        "name": {
+            "value": "ColegioFDR Peru",
+            "synonyms": [
+                "FDR"
+            ]
+        }
+    },
+    {
+        "id": 2467,
+        "name": {
+            "value": "CMUQ",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2488,
+        "name": {
+            "value": "Moscow RF",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2316,
+        "name": {
+            "value": "NTU SINGAPORE",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2447,
+        "name": {
+            "value": "NUS Singapore",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2269,
+        "name": {
+            "value": "Valencia UPV",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2329,
+        "name": {
+            "value": "Chalmers Gothenburg",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2474,
+        "name": {
+            "value": "Linkoping Sweden",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2266,
+        "name": {
+            "value": "Lund",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2235,
+        "name": {
+            "value": "Stockholm",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2423,
+        "name": {
+            "value": "Uppsala",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2203,
+        "name": {
+            "value": "EPFL",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2500,
+        "name": {
+            "value": "ETH Zurich",
+            "synonyms": [
+                "Zurich"
+            ]
+        }
+    },
+    {
+        "id": 2292,
+        "name": {
+            "value": "CCU Taiwan",
+            "synonyms": [
+                "CCU"
+            ]
+        }
+    },
+    {
+        "id": 2376,
+        "name": {
+            "value": "CGU Taiwan",
+            "synonyms": [
+                "CGU"
+            ]
+        }
+    },
+    {
+        "id": 2382,
+        "name": {
+            "value": "CSMU NCHU Taiwan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2230,
+        "name": {
+            "value": "Mingdao",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2275,
+        "name": {
+            "value": "NCKU Tainan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2262,
+        "name": {
+            "value": "NCTU Formosa",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2354,
+        "name": {
+            "value": "NTHU Taiwan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2350,
+        "name": {
+            "value": "NYMU Taipei",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2229,
+        "name": {
+            "value": "TAS Taipei",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2383,
+        "name": {
+            "value": "TCFSH Taiwan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2234,
+        "name": {
+            "value": "Bilkent UNAMBG",
+            "synonyms": [
+                "Bilkent"
+            ]
+        }
+    },
+    {
+        "id": 2495,
+        "name": {
+            "value": "NYU Abu Dhabi",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2293,
+        "name": {
+            "value": "Bristol",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2404,
+        "name": {
+            "value": "Cardiff Wales",
+            "synonyms": [
+                "Cardiff"
+            ]
+        }
+    },
+    {
+        "id": 2206,
+        "name": {
+            "value": "CLSB UK",
+            "synonyms": [
+                "CLSB",
+                "CLS",
+                "City of London",
+                "City of London School"
+            ]
+        }
+    },
+    {
+        "id": 2330,
+        "name": {
+            "value": "Edinburgh OG",
+            "synonyms": [
+                "Edinburgh overgrad"
+            ]
+        }
+    },
+    {
+        "id": 2406,
+        "name": {
+            "value": "Edinburgh UG",
+            "synonyms": [
+                "Edinburgh",
+                "Edinburgh undergrad"
+            ]
+        }
+    },
+    {
+        "id": 2324,
+        "name": {
+            "value": "Exeter",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2442,
+        "name": {
+            "value": "Glasgow",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2245,
+        "name": {
+            "value": "Judd UK",
+            "synonyms": [
+                "Judd",
+                "Judd School"
+            ]
+        }
+    },
+    {
+        "id": 2340,
+        "name": {
+            "value": "Kent",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2213,
+        "name": {
+            "value": "Manchester",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2205,
+        "name": {
+            "value": "Newcastle",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2450,
+        "name": {
+            "value": "Oxford",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2508,
+        "name": {
+            "value": "Sheffield",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2284,
+        "name": {
+            "value": "UNOTT",
+            "synonyms": [
+                "Nottingham"
+            ]
+        }
+    },
+    {
+        "id": 2463,
+        "name": {
+            "value": "Warwick",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2420,
+        "name": {
+            "value": "Westminster UK",
+            "synonyms": [
+                "Westminster"
+            ]
+        }
+    },
+    {
+        "id": 2489,
+        "name": {
+            "value": "York",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2459,
+        "name": {
+            "value": "AHUT China",
+            "synonyms": [
+                "AHUT"
+            ]
+        }
+    },
+    {
+        "id": 2357,
+        "name": {
+            "value": "Arizona State",
+            "synonyms": [
+                "Arizona"
+            ]
+        }
+    },
+    {
+        "id": 2253,
+        "name": {
+            "value": "Austin UTexas",
+            "synonyms": [
+                "Austin"
+            ]
+        }
+    },
+    {
+        "id": 2458,
+        "name": {
+            "value": "Austin UTexas LASA",
+            "synonyms": [
+                "Austin LASA"
+            ]
+        }
+    },
+    {
+        "id": 2436,
+        "name": {
+            "value": "Baltimore Bio Crew",
+            "synonyms": [
+                "Baltimore"
+            ]
+        }
+    },
+    {
+        "id": 2411,
+        "name": {
+            "value": "BostonU",
+            "synonyms": [
+                "Boston"
+            ]
+        }
+    },
+    {
+        "id": 2409,
+        "name": {
+            "value": "BostonU HW",
+            "synonyms": [
+                "Boston hardware"
+            ]
+        }
+    },
+    {
+        "id": 2248,
+        "name": {
+            "value": "Cadets2Vets",
+            "synonyms": [
+                "Cadets",
+                "Vets"
+            ]
+        }
+    },
+    {
+        "id": 2465,
+        "name": {
+            "value": "CAPS Kansas",
+            "synonyms": [
+                "Kansas"
+            ]
+        }
+    },
+    {
+        "id": 2491,
+        "name": {
+            "value": "CCA San Diego",
+            "synonyms": [
+                "CCA"
+            ]
+        }
+    },
+    {
+        "id": 2412,
+        "name": {
+            "value": "ColumbiaNYC",
+            "synonyms": [
+                "Columbia"
+            ]
+        }
+    },
+    {
+        "id": 2296,
+        "name": {
+            "value": "Cornell",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2204,
+        "name": {
+            "value": "CSU Fort Collins",
+            "synonyms": [
+                "CSU"
+            ]
+        }
+    },
+    {
+        "id": 2249,
+        "name": {
+            "value": "CU Boulder",
+            "synonyms": [
+                "Boulder"
+            ]
+        }
+    },
+    {
+        "id": 2435,
+        "name": {
+            "value": "Dartmouth",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2444,
+        "name": {
+            "value": "Delaware",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2410,
+        "name": {
+            "value": "Delgado Ivy Marin",
+            "synonyms": [
+                "Delgado"
+            ]
+        }
+    },
+    {
+        "id": 2464,
+        "name": {
+            "value": "Duke",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2290,
+        "name": {
+            "value": "East Chapel Hill",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2487,
+        "name": {
+            "value": "Emory",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2511,
+        "name": {
+            "value": "EpiphanyNYC",
+            "synonyms": [
+                "Epiphany"
+            ]
+        }
+    },
+    {
+        "id": 2523,
+        "name": {
+            "value": "Florida Atlantic",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2367,
+        "name": {
+            "value": "FSU",
+            "synonyms": [
+                "FSU"
+            ]
+        }
+    },
+    {
+        "id": 2221,
+        "name": {
+            "value": "Gaston Day School",
+            "synonyms": [
+                "Gaston"
+            ]
+        }
+    },
+    {
+        "id": 2524,
+        "name": {
+            "value": "Georgia State",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2251,
+        "name": {
+            "value": "Harvard",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2363,
+        "name": {
+            "value": "iTesla SoundBio",
+            "synonyms": [
+                "Tesla"
+            ]
+        }
+    },
+    {
+        "id": 2268,
+        "name": {
+            "value": "Kingsborough NY",
+            "synonyms": [
+                "Kingsborough"
+            ]
+        }
+    },
+    {
+        "id": 2353,
+        "name": {
+            "value": "Lambert GA",
+            "synonyms": [
+                "Lambert"
+            ]
+        }
+    },
+    {
+        "id": 2478,
+        "name": {
+            "value": "LUBBOCK TTU",
+            "synonyms": [
+                "Lubbock"
+            ]
+        }
+    },
+    {
+        "id": 2238,
+        "name": {
+            "value": "ManhattanCol Bronx",
+            "synonyms": [
+                "Manhattan"
+            ]
+        }
+    },
+    {
+        "id": 2301,
+        "name": {
+            "value": "Michigan",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2274,
+        "name": {
+            "value": "Michigan Software",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2375,
+        "name": {
+            "value": "Minnesota",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2362,
+        "name": {
+            "value": "Missouri Rolla",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2429,
+        "name": {
+            "value": "MIT",
+            "synonyms": [
+                "M. I. T.",
+                "Massachusetts Institute of Technology"
+            ]
+        }
+    },
+    {
+        "id": 2405,
+        "name": {
+            "value": "MSU Michigan",
+            "synonyms": [
+                "MSU"
+            ]
+        }
+    },
+    {
+        "id": 2431,
+        "name": {
+            "value": "NortheasternU Boston",
+            "synonyms": [
+                "Northeastern"
+            ]
+        }
+    },
+    {
+        "id": 2396,
+        "name": {
+            "value": "Northwestern",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2456,
+        "name": {
+            "value": "Penn",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2476,
+        "name": {
+            "value": "Pittsburgh",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2432,
+        "name": {
+            "value": "Princeton",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2228,
+        "name": {
+            "value": "Purdue",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2390,
+        "name": {
+            "value": "RHIT",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2194,
+        "name": {
+            "value": "Rice",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2503,
+        "name": {
+            "value": "RPI Troy NY",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2485,
+        "name": {
+            "value": "Stanford Brown",
+            "synonyms": [
+                "Stanford"
+            ]
+        }
+    },
+    {
+        "id": 2196,
+        "name": {
+            "value": "Stony Brook",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2369,
+        "name": {
+            "value": "TP CC San Diego",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2416,
+        "name": {
+            "value": "Tufts",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2212,
+        "name": {
+            "value": "UC San Diego",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2428,
+        "name": {
+            "value": "UChicago",
+            "synonyms": [
+                "Chicago"
+            ]
+        }
+    },
+    {
+        "id": 2332,
+        "name": {
+            "value": "UCL",
+            "synonyms": [
+                "University College London"
+            ]
+        }
+    },
+    {
+        "id": 2386,
+        "name": {
+            "value": "UConn",
+            "synonyms": [
+                "Conn"
+            ]
+        }
+    },
+    {
+        "id": 2223,
+        "name": {
+            "value": "UCSC",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2352,
+        "name": {
+            "value": "UFlorida",
+            "synonyms": [
+                "Florida"
+            ]
+        }
+    },
+    {
+        "id": 2392,
+        "name": {
+            "value": "UGA Georgia",
+            "synonyms": [
+                "Georgia"
+            ]
+        }
+    },
+    {
+        "id": 2427,
+        "name": {
+            "value": "UIOWA",
+            "synonyms": [
+                "Iowa"
+            ]
+        }
+    },
+    {
+        "id": 2468,
+        "name": {
+            "value": "UIUC Illinois",
+            "synonyms": [
+                "Illinois"
+            ]
+        }
+    },
+    {
+        "id": 2215,
+        "name": {
+            "value": "ULaVerne Collab",
+            "synonyms": [
+                "LaVerne"
+            ]
+        }
+    },
+    {
+        "id": 2477,
+        "name": {
+            "value": "UMaryland",
+            "synonyms": [
+                "Maryland"
+            ]
+        }
+    },
+    {
+        "id": 2430,
+        "name": {
+            "value": "UMBC",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2499,
+        "name": {
+            "value": "UNC Asheville",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2461,
+        "name": {
+            "value": "UNebraska Lincoln",
+            "synonyms": [
+                "Nebraska"
+            ]
+        }
+    },
+    {
+        "id": 2522,
+        "name": {
+            "value": "US AFRL CarrollHS",
+            "synonyms": [
+                "Carrol"
+            ]
+        }
+    },
+    {
+        "id": 2222,
+        "name": {
+            "value": "USMA West Point",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2199,
+        "name": {
+            "value": "USNA Annapolis",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2451,
+        "name": {
+            "value": "UT Knoxville",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2272,
+        "name": {
+            "value": "Virginia",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2391,
+        "name": {
+            "value": "Washington",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2195,
+        "name": {
+            "value": "WashU StLouis",
+            "synonyms": [
+                "Washington St Louis",
+                "St Louis"
+            ]
+        }
+    },
+    {
+        "id": 2333,
+        "name": {
+            "value": "William and Mary",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2452,
+        "name": {
+            "value": "WLC Milwaukee",
+            "synonyms": []
+        }
+    },
+    {
+        "id": 2413,
+        "name": {
+            "value": "WPI Worcester",
+            "synonyms": []
+        }
+    }
+]

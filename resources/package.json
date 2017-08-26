@@ -1,0 +1,10 @@
+{
+  "name": "iGEMTeamScraper",
+  "description": "Scrapes address data for iGEM teams",
+  "private": true,
+  "dependencies": {
+    "fs": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  }
+}
