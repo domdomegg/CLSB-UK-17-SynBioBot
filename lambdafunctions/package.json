@@ -1,0 +1,12 @@
+{
+  "name": "SynBioBot",
+  "description": "Helps out with synthetic biology questions in the lab",
+  "private": true,
+  "dependencies": {
+    "alexa-sdk": "latest",
+    "xml2js": "latest",
+    "fuse.js": "latest",
+    "http": "latest",
+    "https": "latest"
+  }
+}
