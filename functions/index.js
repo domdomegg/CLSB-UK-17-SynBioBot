@@ -56,7 +56,8 @@ exports.synbiobot = functions.https.onRequest((request, response) => {
 
 		let speech = title + ' is an iGEM team from ' + team.c;
 		speech += (team.t ? ' on the ' + team.t + ' track. ' : '. ');
-		speech += (team.s ? 'They have ' + team.s + ' team mebers.' : '');
+		speech += (team.s ? 'They have ' + team.s + ' team mebers. ' : '');
+		speech += 'Would you like to search for another team, search for a part or exit.';
 
 		let text = '';
 		text += (team.n ? '**Name:** ' + team.n + '  \n' : '');
