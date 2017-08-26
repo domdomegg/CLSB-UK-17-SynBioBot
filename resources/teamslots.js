@@ -4,15 +4,17 @@ let values = [];
 
 teams.forEach((team) => {
     let synonyms = [];
-    if (team[2]) { synonyms.push(team[2]); }
-    if (team[3]) { synonyms.push(team[3]); }
-    if (team[4]) { synonyms.push(team[4]); }
-    if (team[5]) { synonyms.push(team[5]); }
-    if (team[6]) { synonyms.push(team[6]); }
-    if (team[7]) { synonyms.push(team[7]); }
+
+    for(let i = 1; i < team.length; i++) {
+        team[i] = team[i].replace(/([A-Z])/g, ' $1.').replace(/ ([A-Z])\.([a-z])/g, '$1$2');
+
+        if(i > 2 && team[i]) {
+            synonyms.push(team[i]);
+        }
+    }
 
     values.push({
-        id: team[0],
+        id: team[0].toString(),
         name: {
             value: team[1],
             synonyms: synonyms
