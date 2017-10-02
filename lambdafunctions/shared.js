@@ -52,7 +52,9 @@ module.exports = {
 
                 let speech = '';
                 speech += 'Part ' + part.part_short_name[0] + ' ';
-                speech += (part.part_type[0] ? 'is a ' + part.part_type[0] : '');
+                speech += (part.part_type[0] ? 'is a ' + (
+                    (part.part_type[0] == 'RBS') ? '<say-as interpret-as="characters">RBS</say-as>' : part.part_type[0]
+                ) : '');
                 speech += (part.part_results[0] == "Works" ? ' that works' : '');
                 speech += (part.part_author[0] ? ', designed by ' + clean(part.part_author[0]) + '.' : '.');
 
@@ -100,7 +102,7 @@ module.exports = {
     },
     protocolBegin: function(protocol) {
         if (protocol.protocol_steps) {
-			let speech = 'Sure. Beginning the step-by-step instructions for ' + protocol.title + '. ';
+			let speech = 'Sure. Beginning the step by step instructions for ' + protocol.title + '. ';
 			speech += 'To navigate through steps, just say \'next\', \'repeat\', or \'back\'. ';
 			speech += (clean(protocol.protocol_steps[0].warning) ? 'Warning for step 1: ' + clean(protocol.protocol_steps[0].warning) + '.  \n  \n' : '');
 			speech += 'Step 1: ' + clean(protocol.protocol_steps[0].action) + '. ';
@@ -181,9 +183,9 @@ function showProtocol(protocol) {
     let speech = '';
     speech += 'Ok, I\'ve found ' + clean(protocol.title) + '. ';
     speech += (protocol.description ? clean(protocol.description).split('.')[0] + '. ' : '');
-    speech += 'Do you want a step-by-step guide or to exit?';
+    speech += 'Do you want a step by step guide or to exit?';
 
-    let reprompt = 'Do you want a step-by-step guide or to exit?';
+    let reprompt = 'Do you want a step by step guide or to exit?';
 
     let text = '';
     text += (clean(protocol.description) ? 'Description: ' + clean(protocol.description) + '  \n' : '');
