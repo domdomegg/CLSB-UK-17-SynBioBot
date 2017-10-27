@@ -57,5 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
-
+# Zips for uploading to AWS / Firebase
 *.zip
