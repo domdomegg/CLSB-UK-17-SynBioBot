@@ -1,0 +1,72 @@
+{
+  "id": "a234f640-ba2f-4ecb-a8b1-ed509c30fb73",
+  "name": "Protocat search",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Protocatsearch-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "Sure. What protocol are you looking for?"
+            },
+            {
+              "textToSpeech": "Ok, what protocol do you want me to search Protocat for?"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Mini-Prep"
+            },
+            {
+              "title": "Ligation"
+            },
+            {
+              "title": "PCR"
+            },
+            {
+              "title": "Restriction Digest"
+            },
+            {
+              "title": "Plate reader calibration"
+            },
+            {
+              "title": "Exit"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sure. What protocol are you looking for?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501537958,
+  "fallbackIntent": false,
+  "events": []
+}

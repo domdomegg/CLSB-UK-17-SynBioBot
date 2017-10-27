@@ -1,0 +1,52 @@
+{
+  "id": "c478c232-3dae-49a3-93ea-333a41dc7403",
+  "name": "Search team",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_team",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "69394371-5cb3-4de5-8206-33794d9209bb",
+          "required": true,
+          "dataType": "@iGEMTeamName",
+          "name": "iGEMTeamName",
+          "value": "$iGEMTeamName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure. What team would you like me to lookup?"
+            },
+            {
+              "lang": "en",
+              "value": "Sorry, I couldn\u0027t understand that - what\u0027s the name of the iGEM team you want me to lookup?"
+            },
+            {
+              "lang": "en",
+              "value": "Sorry again. What\u0027s the name of the iGEM team you want me to lookup, exactly as it appears on the iGEM team roster?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I couldn\u0027t get information about that team."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1503780406,
+  "fallbackIntent": false,
+  "events": []
+}

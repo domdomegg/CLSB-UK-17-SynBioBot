@@ -1,0 +1,98 @@
+[
+  {
+    "id": "c42e5844-9575-4566-8dee-f6bc7b5bd070",
+    "data": [
+      {
+        "text": "Previous step",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  },
+  {
+    "id": "36587bb0-1c90-4825-866d-a6d616fbd7f1",
+    "data": [
+      {
+        "text": "Step back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  },
+  {
+    "id": "919ea7a2-a3fc-4731-abf6-cb37abc6d527",
+    "data": [
+      {
+        "text": "Step before",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  },
+  {
+    "id": "5103fa5b-6096-413b-a741-28e30ac7df3c",
+    "data": [
+      {
+        "text": "Preceding step",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  },
+  {
+    "id": "1ef36252-b87c-492b-87e0-ada3e2e3bebf",
+    "data": [
+      {
+        "text": "What\u0027s the step before?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  },
+  {
+    "id": "d6ec8f7d-82c6-43cd-8947-c1005452fade",
+    "data": [
+      {
+        "text": "What was the previous step?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  },
+  {
+    "id": "5a462198-0046-4a3e-a2a3-5cae6f9fec67",
+    "data": [
+      {
+        "text": "Previous",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  },
+  {
+    "id": "bd9de9c5-5071-4d52-937a-59ed5de2bf0a",
+    "data": [
+      {
+        "text": "Back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161947
+  }
+]

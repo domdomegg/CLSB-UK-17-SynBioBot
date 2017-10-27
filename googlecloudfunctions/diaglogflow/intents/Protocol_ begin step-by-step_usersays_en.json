@@ -1,0 +1,123 @@
+[
+  {
+    "id": "f029770e-26eb-4cce-8ba4-3d6039ccec38",
+    "data": [
+      {
+        "text": "Lead me through this protocol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501190402
+  },
+  {
+    "id": "70adc48e-49a7-4e58-a8c1-c3fff47465a8",
+    "data": [
+      {
+        "text": "Lead me through it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501190402
+  },
+  {
+    "id": "c302e23c-f286-4f3e-98df-7a0983b9e50c",
+    "data": [
+      {
+        "text": "Instructions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1501161659
+  },
+  {
+    "id": "ccce1752-adfc-44bc-a46b-d4e8ca66b97c",
+    "data": [
+      {
+        "text": "Steps",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b37da1b-de63-45d2-b025-f4b0e5f9efbb",
+    "data": [
+      {
+        "text": "Step by step guide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1114c458-7a7b-413d-8d03-97758dd93415",
+    "data": [
+      {
+        "text": "Guide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2656caf5-7ff1-43ac-ab98-7a44a7acdedd",
+    "data": [
+      {
+        "text": "Walk me through it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c188470-f7ca-401c-9f0d-10d18840781b",
+    "data": [
+      {
+        "text": "Walk me through the protocol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93d5f652-7c93-4f7e-afe3-3da4216c52ae",
+    "data": [
+      {
+        "text": "Step-by-step guide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "81087a90-c19c-4b2e-af0f-1ab8c1c7aef0",
+    "data": [
+      {
+        "text": "Step-by-step",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

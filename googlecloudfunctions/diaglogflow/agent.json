@@ -1,0 +1,44 @@
+{
+  "description": "Helps around the lab with answers to your synthetic biology questions",
+  "language": "en",
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "SynBioBot",
+    "project": "synbiobot",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "42d32752-18fa-45ae-9c22-6a729479ebf8",
+        "signInRequired": false
+      },
+      {
+        "intentId": "a234f640-ba2f-4ecb-a8b1-ed509c30fb73",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "Europe/Madrid",
+  "webhook": {
+    "url": "https://us-central1-synbiobot.cloudfunctions.net/synbiobot",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": []
+}

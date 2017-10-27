@@ -1,0 +1,31 @@
+{
+  "id": "31c4b632-959a-4dd9-9c0e-6cb13df83429",
+  "name": "Protocol: begin step-by-step",
+  "auto": true,
+  "contexts": [
+    "protocol"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "protocol_step_by_step_begin",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I couldn\u0027t get step-by-step instructions for that protocol. What else would you like to do instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501190402,
+  "fallbackIntent": false,
+  "events": []
+}

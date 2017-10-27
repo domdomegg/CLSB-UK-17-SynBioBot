@@ -1,0 +1,37 @@
+{
+  "id": "10d2d949-d3e9-4ab8-8ca4-e951cfd4b3e0",
+  "parentId": "3d8e043e-017a-48f5-bb67-ec5d1a2ef77f",
+  "rootParentId": "a234f640-ba2f-4ecb-a8b1-ed509c30fb73",
+  "name": "Protocat list select",
+  "auto": false,
+  "contexts": [
+    "Protocatsearchquery-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "protocat_list_select",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I couldn\u0027t open that protocol. What should I do instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501112922,
+  "fallbackIntent": true,
+  "events": [
+    {
+      "name": "actions_intent_OPTION"
+    }
+  ]
+}

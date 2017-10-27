@@ -1,0 +1,39 @@
+{
+  "id": "3d8e043e-017a-48f5-bb67-ec5d1a2ef77f",
+  "parentId": "a234f640-ba2f-4ecb-a8b1-ed509c30fb73",
+  "rootParentId": "a234f640-ba2f-4ecb-a8b1-ed509c30fb73",
+  "name": "Protocat search query",
+  "auto": false,
+  "contexts": [
+    "Protocatsearch-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "protocat_search",
+      "affectedContexts": [
+        {
+          "name": "Protocatsearchquery-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Couldn\u0027t connect to Protocat webhook. What do you want to do instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501194601,
+  "fallbackIntent": true,
+  "events": []
+}

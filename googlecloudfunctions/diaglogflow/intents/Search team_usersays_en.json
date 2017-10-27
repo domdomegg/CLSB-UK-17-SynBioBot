@@ -1,0 +1,162 @@
+[
+  {
+    "id": "78f12290-ba80-4962-b448-a7a5e9152c76",
+    "data": [
+      {
+        "text": "Search for another team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503780030
+  },
+  {
+    "id": "b01d7ad6-d3e2-4835-a1da-6bb64adc68e4",
+    "data": [
+      {
+        "text": "Warwick",
+        "alias": "iGEMTeamName",
+        "meta": "@iGEMTeamName",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503777874
+  },
+  {
+    "id": "0746879c-2df4-4ebf-8dc5-c83437e9fd59",
+    "data": [
+      {
+        "text": "How many people are on ",
+        "userDefined": false
+      },
+      {
+        "text": "Judd\u0027s",
+        "alias": "iGEMTeamName",
+        "meta": "@iGEMTeamName",
+        "userDefined": true
+      },
+      {
+        "text": " team?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503777874
+  },
+  {
+    "id": "ba434731-91cc-4ee6-b0fa-cbfb2a7b1ba1",
+    "data": [
+      {
+        "text": "What are ",
+        "userDefined": false
+      },
+      {
+        "text": "CLSB",
+        "alias": "iGEMTeamName",
+        "meta": "@iGEMTeamName",
+        "userDefined": true
+      },
+      {
+        "text": " doing?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503777874
+  },
+  {
+    "id": "830e4165-920e-4549-928a-67eef6883f79",
+    "data": [
+      {
+        "text": "Search team ",
+        "userDefined": false
+      },
+      {
+        "text": "Rice",
+        "alias": "iGEMTeamName",
+        "meta": "@iGEMTeamName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503777874
+  },
+  {
+    "id": "d255506e-f09d-47ff-ba96-e5bc42e740c4",
+    "data": [
+      {
+        "text": "Lookup team ",
+        "userDefined": false
+      },
+      {
+        "text": "University College London",
+        "alias": "iGEMTeamName",
+        "meta": "@iGEMTeamName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503777874
+  },
+  {
+    "id": "8dcaa8a5-8d3b-418d-8bf5-06e3951d4875",
+    "data": [
+      {
+        "text": "Team ",
+        "userDefined": false
+      },
+      {
+        "text": "Harvard",
+        "alias": "iGEMTeamName",
+        "meta": "@iGEMTeamName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503777874
+  },
+  {
+    "id": "4b79cc38-f98c-4400-9927-6ee251a5ae1a",
+    "data": [
+      {
+        "text": "Search team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503776794
+  },
+  {
+    "id": "c95d12c9-3f40-4302-ba99-f1557493807b",
+    "data": [
+      {
+        "text": "Lookup team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1503776794
+  },
+  {
+    "id": "34bbebbe-c62e-4fa6-ab77-71a87b70c82d",
+    "data": [
+      {
+        "text": "Team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

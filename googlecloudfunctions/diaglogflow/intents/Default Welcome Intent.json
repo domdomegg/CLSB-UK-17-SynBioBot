@@ -1,0 +1,60 @@
+{
+  "id": "64f7189e-4d19-4421-918f-0cd2d9f6e76e",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "Hi! Would you like Synthetic Biology Bot to search the I gem Registry or find protocols?",
+              "displayText": "Hi! Would you like Synthetic Biology Bot to search the iGEM Registry or find protocols?"
+            },
+            {
+              "textToSpeech": "Hello! I\u0027m Synthetic Biology Bot - should I search the I gem Registry, find protocols or search for an I gem team?",
+              "displayText": "Hello! I\u0027m Synthetic Biology Bot - should I search the iGEM Registry, find protocols or search for an iGEM team?"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Search iGEM Registry"
+            },
+            {
+              "title": "Find protocols"
+            },
+            {
+              "title": "Search iGEM teams"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1503780769,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5e1a5e3a-e77b-4661-baf0-c51781a7c2f1",
+  "name": "Protocol: step next",
+  "auto": true,
+  "contexts": [
+    "protocol_step_state"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "protocol_step_by_step_next",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I couldn\u0027t fetch the next step."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501163832,
+  "fallbackIntent": false,
+  "events": []
+}

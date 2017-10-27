@@ -1,0 +1,60 @@
+{
+  "id": "42d32752-18fa-45ae-9c22-6a729479ebf8",
+  "name": "Search parts registry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_part",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5455f4d5-8987-46ba-870b-b985251b7dab",
+          "required": true,
+          "dataType": "@iGEMPartName",
+          "name": "iGEMPartName",
+          "value": "$iGEMPartName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sure. What\u0027s the part ID?"
+            },
+            {
+              "lang": "en",
+              "value": "Sorry, I didn\u0027t get that. What\u0027s the part ID?"
+            },
+            {
+              "lang": "en",
+              "value": "Sorry, I still didn\u0027t understand. What\u0027s the part ID, for example B0034?"
+            },
+            {
+              "lang": "en",
+              "value": "I\u0027m still having a hard time understanding - please can you check the part id for me; It\u0027s usually a letter followed  by 4 numbers, like B0034. If you\u0027ve recently updated it I might not be able to access it yet. What is it?"
+            },
+            {
+              "lang": "en",
+              "value": "I still can\u0027t find that part ID in the registry. If you\u0027ve recently updated it I might not be able to access it yet, as it takes the iGEM database a while to refresh. Please try again later. If you do have the part id now, please say it."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, there was an error looking up part $iGEMPartName. What would you like to do instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1501538765,
+  "fallbackIntent": false,
+  "events": []
+}
