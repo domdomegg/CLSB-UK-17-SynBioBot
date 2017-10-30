@@ -29,10 +29,10 @@ There are more detailed instructions avilable on [Google's help site](https://su
 
 ## Structure
 
-`lambdafunctions` contains the code for the Amazon Alexa skill, that runs as a Lambda Function on AWS as well as the Alexa Skills Builder data
-`googlecloudfunctions` contains the code for the Google Assistant app, that runs as a Cloud Function on Google Cloud Platform / Firebase as well as the Diaglogflow agent data
-`resources` contains data and short programs process that data, e.g. team information
-`branding` contains branding materials, e.g. logos and banners
+* `lambdafunctions` contains the code for the Amazon Alexa skill, that runs as a Lambda Function on AWS as well as the Alexa Skills Builder data
+* `googlecloudfunctions` contains the code for the Google Assistant app, that runs as a Cloud Function on Google Cloud Platform / Firebase as well as the Diaglogflow agent data
+* `resources` contains data and short programs process that data, e.g. team information
+* `branding` contains branding materials, e.g. logos and banners
 
 ## Contributing
 
