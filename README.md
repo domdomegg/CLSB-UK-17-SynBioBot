@@ -1,4 +1,4 @@
-# Synthetic Biology Bot
+# CLSB-UK: Synthetic Biology Bot
 Synthetic Biology Bot is an app for Amazon Alexa and Google Assistant that helps scientists in the lab by looking up parts, step-by-step protocol instructions and iGEM teams.
 
 Google Assistant action that helps out with synthetic biology questions in the lab. Built with API.ai and Firebase Cloud Functions.
